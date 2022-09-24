@@ -78,7 +78,7 @@ class _WebFull_carMenosPriceState extends State<WebFull_carMenosPrice> {
                     color: GlobalVariables.backgroundColor,
                     child: Stack(
                       children: [
-                        Positioned(
+                        Container(
                           child: Container(
                               height: 210,
                               width: 1260,
@@ -205,7 +205,7 @@ class _WebFull_carMenosPriceState extends State<WebFull_carMenosPrice> {
                               )),
                         ),
                         Center(
-                          child: Positioned(
+                          child: Container(
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[

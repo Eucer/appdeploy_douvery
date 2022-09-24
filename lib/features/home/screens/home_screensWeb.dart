@@ -5,6 +5,7 @@ import 'package:badges/badges.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 
 import 'package:flutter_iconly/flutter_iconly.dart';
@@ -95,9 +96,8 @@ class _HomeScreenWebState extends State<HomeScreenWeb> {
                   child: Stack(
                     children: [
                       Web_BannerWidget(),
-                      Positioned(
+                      Container(
                         width: MediaQuery.of(context).size.width / 1,
-                        top: 200,
                         child: Container(
                           alignment: Alignment.bottomCenter,
                           child: Row(
@@ -105,10 +105,10 @@ class _HomeScreenWebState extends State<HomeScreenWeb> {
                             children: [
                               Column(
                                 children: [
-                                  Positioned(
+                                  Container(
                                     child: Web_CarRandom(),
                                   ),
-                                  Positioned(
+                                  Container(
                                     child: Web_carNew(),
                                   ),
                                 ],

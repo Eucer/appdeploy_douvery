@@ -77,7 +77,7 @@ class _WebFull_carVendedorState extends State<WebFull_carVendedor> {
                     color: GlobalVariables.backgroundColor,
                     child: Stack(
                       children: [
-                        Positioned(
+                        Container(
                           child: Container(
                               height: 210,
                               width: 1260,
@@ -204,7 +204,7 @@ class _WebFull_carVendedorState extends State<WebFull_carVendedor> {
                               )),
                         ),
                         Center(
-                          child: Positioned(
+                          child: Container(
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[

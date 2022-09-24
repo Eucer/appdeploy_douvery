@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\germi\OneDrive\Escritorio\appStable\Deploy\v1douvery\build\windows\CMakeFiles\4564fd2feae41d10240591b695060e8d\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3616E976-1537-3B52-BB46-2FD17390582B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

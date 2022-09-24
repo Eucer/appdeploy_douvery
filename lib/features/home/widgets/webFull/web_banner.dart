@@ -73,8 +73,8 @@ class IdicatorBanner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Positioned(
-      bottom: 10.0,
+    return Container(
+      margin: EdgeInsets.only(bottom: 10),
       child: Row(
         children: [
           SizedBox(

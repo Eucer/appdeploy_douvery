@@ -105,18 +105,20 @@ class _HomeScreenWebFullState extends State<HomeScreenWebFull> {
                   child: Stack(
                     children: [
                       WebFull_BannerWidget(),
-                      Positioned(
-                        top: 200,
-                        left: 110,
+                      Container(
+                        margin: EdgeInsets.only(
+                          top: 200,
+                          left: 110,
+                        ),
                         child: Container(
                           child: Row(
                             children: [
                               Column(
                                 children: [
-                                  Positioned(
+                                  Container(
                                     child: WebFull_CarRandom(),
                                   ),
-                                  Positioned(
+                                  Container(
                                     child: WebFull_carNew(),
                                   ),
                                 ],

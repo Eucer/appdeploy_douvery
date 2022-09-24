@@ -110,7 +110,7 @@ class _WebFull_ContainerState extends State<WebFull_Container> {
                     color: GlobalVariables.backgroundColor,
                     child: Stack(
                       children: [
-                        Positioned(
+                        Container(
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
@@ -153,7 +153,7 @@ class _WebFull_ContainerState extends State<WebFull_Container> {
                                 ),
                               ),
                               Center(
-                                child: Positioned(
+                                child: Container(
                                   child: Row(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,

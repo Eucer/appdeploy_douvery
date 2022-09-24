@@ -18,9 +18,11 @@ class CarKitsProductOne extends StatelessWidget {
           fit: StackFit.passthrough,
           children: [
             // Max Size Widget
-            Positioned(
-              top: 30,
-              left: 10,
+            Container(
+              margin: EdgeInsets.only(
+                top: 30,
+                left: 10,
+              ),
               child: Container(
                 height: 100,
                 width: 160,
@@ -38,9 +40,11 @@ class CarKitsProductOne extends StatelessWidget {
                 ),
               ),
             ),
-            Positioned(
-              bottom: 10,
-              left: 10,
+            Container(
+              margin: EdgeInsets.only(
+                bottom: 10,
+                right: 10,
+              ),
               child: Container(
                 height: 100,
                 width: 160,
@@ -58,9 +62,11 @@ class CarKitsProductOne extends StatelessWidget {
                 ),
               ),
             ),
-            Positioned(
-              bottom: 10,
-              right: 10,
+            Container(
+              margin: EdgeInsets.only(
+                bottom: 10,
+                right: 10,
+              ),
               child: Container(
                 height: 100,
                 width: 160,
@@ -78,9 +84,11 @@ class CarKitsProductOne extends StatelessWidget {
                 ),
               ),
             ),
-            Positioned(
-              top: 50,
-              right: 10,
+            Container(
+              margin: EdgeInsets.only(
+                top: 50,
+                right: 10,
+              ),
               child: Container(
                 height: 100,
                 width: 160,

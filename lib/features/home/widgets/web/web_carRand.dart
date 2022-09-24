@@ -67,7 +67,7 @@ class _Web_CarRandomState extends State<Web_CarRandom> {
                   color: GlobalVariables.backgroundColor,
                   child: Stack(
                     children: [
-                      Positioned(
+                      Container(
                         child: Container(
                             height: 105,
                             width: 1000,
@@ -116,7 +116,7 @@ class _Web_CarRandomState extends State<Web_CarRandom> {
                             )),
                       ),
                       Center(
-                        child: Positioned(
+                        child: Container(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: <Widget>[

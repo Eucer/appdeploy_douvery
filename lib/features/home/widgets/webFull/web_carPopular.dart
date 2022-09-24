@@ -88,7 +88,7 @@ class _WebFull_carPopularState extends State<WebFull_carPopular> {
                     color: GlobalVariables.backgroundColor,
                     child: Stack(
                       children: [
-                        Positioned(
+                        Container(
                           child: Container(
                               height: 185,
                               width: 1260,
@@ -207,7 +207,7 @@ class _WebFull_carPopularState extends State<WebFull_carPopular> {
                               )),
                         ),
                         Center(
-                          child: Positioned(
+                          child: Container(
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[

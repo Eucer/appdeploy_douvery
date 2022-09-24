@@ -14,7 +14,7 @@ const userRouter  = require("./routes/user");
 //* INITIALIZATION
 
 const PORT = process.env.PORT || 3000;
-const app = express();BSARTG 
+const app = express(); 
 const DB =
   "mongodb+srv://germys:5eucerYw0z7Z@cluster0.ga2lq.mongodb.net/?retryWrites=true&w=majority";
 

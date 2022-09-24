@@ -83,7 +83,7 @@ class _WebFull_carNameSimilarProductState
                     color: GlobalVariables.backgroundColor,
                     child: Stack(
                       children: [
-                        Positioned(
+                        Container(
                           child: Container(
                               height: 210,
                               width: 1260,
@@ -210,7 +210,7 @@ class _WebFull_carNameSimilarProductState
                               )),
                         ),
                         Center(
-                          child: Positioned(
+                          child: Container(
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[

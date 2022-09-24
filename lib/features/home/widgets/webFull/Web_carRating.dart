@@ -76,7 +76,7 @@ class _WebFull_carRatingState extends State<WebFull_carRating> {
                     color: GlobalVariables.backgroundColor,
                     child: Stack(
                       children: [
-                        Positioned(
+                        Container(
                           child: Container(
                               height: 185,
                               width: 1260,
@@ -195,7 +195,7 @@ class _WebFull_carRatingState extends State<WebFull_carRating> {
                               )),
                         ),
                         Center(
-                          child: Positioned(
+                          child: Container(
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[
