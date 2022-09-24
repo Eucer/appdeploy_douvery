@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:v1douvery/provider/theme.dart';
 
-String uri = '/';
+String uri = '';
 
 class GlobalVariables {
   //* COLORES
