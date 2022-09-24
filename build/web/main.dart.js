@@ -98555,7 +98555,7 @@ i=A.a([],t.Bk)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/orders/me",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$rG)
+return A.z(A.ig(A.cB("/api/orders/me",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$rG)
 case 7:n=c
 A.eq(a,new A.ab9(n,i),n)
 p=2
@@ -98908,7 +98908,7 @@ a0W(a,b){var s=0,r=A.G(t.z),q=1,p,o,n,m,l,k,j,i,h
 var $async$tJ=A.C(function(c,d){if(c===1){p=d
 s=q}while(true)switch(s){case 0:i=A.ae(b,!1,t.R)
 q=3
-m=A.cB("http://10.0.0.7:3000/api/save-user-address",0,null)
+m=A.cB("/api/save-user-address",0,null)
 l=t.N
 k=A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",i.a.r],l,l)
 s=6
@@ -98934,7 +98934,7 @@ awH(a,b,c){var s=0,r=A.G(t.z),q=1,p,o,n,m,l,k,j,i,h,g
 var $async$xn=A.C(function(d,e){if(d===1){p=e
 s=q}while(true)switch(s){case 0:h=A.ae(b,!1,t.R)
 q=3
-m=A.cB("http://10.0.0.7:3000/api/order",0,null)
+m=A.cB("/api/order",0,null)
 l=t.N
 k=A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",h.a.r],l,l)
 j=h.a.w
@@ -99190,7 +99190,7 @@ case 7:++m
 s=6
 break
 case 8:k=new A.kc(a5,a2,a7,n,a0,a4,a6,null,null,null)
-g=A.cB("http://10.0.0.7:3000/admin/add-product",0,null)
+g=A.cB("/admin/add-product",0,null)
 f=t.N
 f=A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",b.a.r],f,f)
 s=10
@@ -99219,7 +99219,7 @@ i=A.a([],t._V)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/admin/get-products",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$Bz)
+return A.z(A.ig(A.cB("/admin/get-products",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$Bz)
 case 7:n=c
 A.eq(a,new A.abn(n,i),n)
 p=2
@@ -99247,7 +99247,7 @@ i=A.a([],t.Bk)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/admin/get-orders",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$Bx)
+return A.z(A.ig(A.cB("/admin/get-orders",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$Bx)
 case 7:n=c
 A.eq(a,new A.abm(n,i),n)
 p=2
@@ -99272,7 +99272,7 @@ aoU(a,b,c,d){var s=0,r=A.G(t.z),q=1,p,o,n,m,l,k,j,i,h
 var $async$vE=A.C(function(e,f){if(e===1){p=f
 s=q}while(true)switch(s){case 0:i=A.ae(a,!1,t.R)
 q=3
-m=A.cB("http://10.0.0.7:3000/admin/change-order-status",0,null)
+m=A.cB("/admin/change-order-status",0,null)
 l=t.N
 k=A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",i.a.r],l,l)
 s=6
@@ -99303,7 +99303,7 @@ j.b=0
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/admin/analytics",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",i.a.r],l,l)),$async$y0)
+return A.z(A.ig(A.cB("/admin/analytics",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",i.a.r],l,l)),$async$y0)
 case 7:n=c
 A.eq(a,new A.abo(j,n),n)
 p=2
@@ -99666,7 +99666,7 @@ s=q}while(true)switch(s){case 0:q=3
 o=new A.A4("",c,b,d,"","","",[])
 l=t.N
 s=6
-return A.z(A.rx(A.cB("http://10.0.0.7:3000/api/signup",0,null),B.x.h5(o.iJ()),A.an(["Content-Type","application/json; charset=UTF-8"],l,l)),$async$tY)
+return A.z(A.rx(A.cB("/api/signup",0,null),B.x.h5(o.iJ()),A.an(["Content-Type","application/json; charset=UTF-8"],l,l)),$async$tY)
 case 6:n=f
 A.eq(a,new A.abR(a),n)
 q=1
@@ -99689,7 +99689,7 @@ var $async$tX=A.C(function(d,e){if(d===1){p=e
 s=q}while(true)switch(s){case 0:q=3
 m=t.N
 s=6
-return A.z(A.rx(A.cB("http://10.0.0.7:3000/api/signin",0,null),B.x.eg(A.an(["email",b,"password",c],m,m),null),A.an(["Content-Type","application/json; charset=UTF-8"],m,m)),$async$tX)
+return A.z(A.rx(A.cB("/api/signin",0,null),B.x.eg(A.an(["email",b,"password",c],m,m),null),A.an(["Content-Type","application/json; charset=UTF-8"],m,m)),$async$tX)
 case 6:o=e
 m=o
 A.eF(A.cj(A.ci(m.e).c.a.h(0,"charset")).aG(0,m.w))
@@ -99717,7 +99717,7 @@ return A.z(A.uU(),$async$pX)
 case 6:o=c
 n=A.cJ(J.ab(o.a,"x-auth-token"))
 if(n==null)o.A5("String","x-auth-token","")
-h=A.cB("http://10.0.0.7:3000/tokenIsValid",0,null)
+h=A.cB("/tokenIsValid",0,null)
 g=n
 g.toString
 f=t.N
@@ -99729,7 +99729,7 @@ l=B.x.cf(0,A.cj(A.ci(g.e).c.a.h(0,"charset")).aG(0,g.w),null)
 s=J.i(l,!0)?8:9
 break
 case 8:s=10
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",n],f,f)),$async$pX)
+return A.z(A.ig(A.cB("/",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",n],f,f)),$async$pX)
 case 10:k=c
 j=A.ae(a,!1,t.R)
 h=j
@@ -99931,7 +99931,7 @@ s=q}while(true)switch(s){case 0:k=A.ae(a,!1,t.R)
 q=3
 m=t.N
 s=6
-return A.z(A.aWE(A.cB("http://10.0.0.7:3000/api/remove-from-cart/"+A.f(b.w),0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",k.a.r],m,m)),$async$pE)
+return A.z(A.aWE(A.cB("/api/remove-from-cart/"+A.f(b.w),0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",k.a.r],m,m)),$async$pE)
 case 6:o=d
 A.eq(a,new A.aed(k,o),o)
 q=1
@@ -99955,7 +99955,7 @@ s=q}while(true)switch(s){case 0:k=A.ae(a,!1,t.R)
 q=3
 m=t.N
 s=6
-return A.z(A.aWE(A.cB("http://10.0.0.7:3000/api/remove-all-from-cart/"+A.f(b.w),0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",k.a.r],m,m)),$async$xx)
+return A.z(A.aWE(A.cB("/api/remove-all-from-cart/"+A.f(b.w),0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",k.a.r],m,m)),$async$xx)
 case 6:o=d
 A.eq(a,new A.aec(k,o),o)
 q=1
@@ -100247,7 +100247,7 @@ i=A.a([],t._V)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/products?category="+a,0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$wl)
+return A.z(A.ig(A.cB("/api/products?category="+a,0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$wl)
 case 7:n=d
 A.eq(b,new A.aeC(n,i),n)
 p=2
@@ -100333,7 +100333,7 @@ i=A.a([],t._V)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/productsLimit?category="+a,0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$wk)
+return A.z(A.ig(A.cB("/api/productsLimit?category="+a,0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$wk)
 case 7:n=d
 A.eq(b,new A.alT(n,i),n)
 p=2
@@ -100361,7 +100361,7 @@ i=A.a([],t._V)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/productsNameLimit?name="+b,0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$BD)
+return A.z(A.ig(A.cB("/api/productsNameLimit?name="+b,0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$BD)
 case 7:n=d
 A.eq(a,new A.alY(n,i),n)
 p=2
@@ -100389,7 +100389,7 @@ i=A.a([],t._V)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/marca/products?marca="+b,0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$rF)
+return A.z(A.ig(A.cB("/api/marca/products?marca="+b,0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$rF)
 case 7:n=d
 A.eq(a,new A.alX(n,i),n)
 p=2
@@ -100417,7 +100417,7 @@ i=A.a([],t._V)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/products/new",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$rH)
+return A.z(A.ig(A.cB("/api/products/new",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$rH)
 case 7:n=c
 A.eq(a,new A.alZ(n,i),n)
 p=2
@@ -100446,7 +100446,7 @@ j.a=new A.kc("","",0,A.a([],t.s),"","",0,null,null,null)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/deal-of-day",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",i.a.r],l,l)),$async$BB)
+return A.z(A.ig(A.cB("/api/deal-of-day",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",i.a.r],l,l)),$async$BB)
 case 7:n=c
 A.eq(a,new A.alU(j,n),n)
 p=2
@@ -100474,7 +100474,7 @@ i=A.a([],t._V)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/list-product-deal",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$wm)
+return A.z(A.ig(A.cB("/api/list-product-deal",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$wm)
 case 7:n=c
 A.eq(a,new A.alV(n,i),n)
 p=2
@@ -100502,7 +100502,7 @@ i=A.a([],t._V)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/list-radomn",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$wn)
+return A.z(A.ig(A.cB("/api/list-radomn",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$wn)
 case 7:n=c
 A.eq(a,new A.alW(n,i),n)
 p=2
@@ -100530,7 +100530,7 @@ i=A.a([],t._V)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/products/all",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$rI)
+return A.z(A.ig(A.cB("/api/products/all",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$rI)
 case 7:n=c
 A.eq(a,new A.am0(n,i),n)
 p=2
@@ -100558,7 +100558,7 @@ i=A.a([],t._V)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/products/rating",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$BF)
+return A.z(A.ig(A.cB("/api/products/rating",0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$BF)
 case 7:n=c
 A.eq(a,new A.am_(n,i),n)
 p=2
@@ -102368,7 +102368,7 @@ ao5(a,b){var s=0,r=A.G(t.z),q=1,p,o,n,m,l,k,j,i,h,g
 var $async$ik=A.C(function(c,d){if(c===1){p=d
 s=q}while(true)switch(s){case 0:h=A.ae(a,!1,t.R)
 q=3
-m=A.cB("http://10.0.0.7:3000/api/add-to-cart",0,null)
+m=A.cB("/api/add-to-cart",0,null)
 l=t.N
 k=A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",h.a.r],l,l)
 j=b.w
@@ -102396,7 +102396,7 @@ ax0(a,b,c,d){var s=0,r=A.G(t.z),q=1,p,o,n,m,l,k,j,i,h,g
 var $async$tj=A.C(function(e,f){if(e===1){p=f
 s=q}while(true)switch(s){case 0:h=A.ae(b,!1,t.R)
 q=3
-m=A.cB("http://10.0.0.7:3000/api/rate-product",0,null)
+m=A.cB("/api/rate-product",0,null)
 l=t.N
 k=A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",h.a.r],l,l)
 j=c.w
@@ -102520,7 +102520,7 @@ i=A.a([],t._V)
 p=4
 l=t.N
 s=7
-return A.z(A.ig(A.cB("http://10.0.0.7:3000/api/products/search/"+b,0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$wo)
+return A.z(A.ig(A.cB("/api/products/search/"+b,0,null),A.an(["Content-Type","application/json; charset=UTF-8","x-auth-token",j.a.r],l,l)),$async$wo)
 case 7:n=d
 A.eq(a,new A.avo(n,i),n)
 p=2
