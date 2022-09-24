@@ -1,15 +1,33 @@
+import 'dart:io';
+
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:v1douvery/cargin.dart';
+import 'package:v1douvery/common/widgets/bottom_bar.dart';
+import 'package:v1douvery/common/widgets/bottom_barAdmin.dart';
+import 'package:v1douvery/constantes/global_variables.dart';
+import 'package:v1douvery/features/admin/responsive/Admin_responsive_layaout.dart';
+import 'package:v1douvery/features/admin/screens/adminScreens.dart';
+import 'package:v1douvery/features/auth/screens/auth_screen.dart';
+import 'package:v1douvery/features/auth/services/auth_service.dart';
+import 'package:v1douvery/features/home/responsive/responsive_layaout.dart';
+
+import 'package:v1douvery/models/user.dart';
+import 'package:v1douvery/provider/ordersProviders.dart';
 import 'package:v1douvery/provider/theme.dart';
 import 'package:v1douvery/provider/user_provider.dart';
 import 'package:v1douvery/router.dart';
 
-import 'features/admin/responsive/Admin_responsive_layaout.dart';
-import 'features/auth/services/auth_service.dart';
-import 'features/home/responsive/responsive_layaout.dart';
-
 void main() {
-  runApp(const MyApp());
+  FlutterError.onError = (FlutterErrorDetails details) {
+    FlutterError.presentError(details);
+    if (kReleaseMode) exit(1);
+  };
+  runApp(MultiProvider(providers: [
+    ChangeNotifierProvider(create: (context) => UserProvider()),
+    ChangeNotifierProvider(create: (context) => OrderProvider()),
+  ], child: const MyApp()));
 }
 
 class MyApp extends StatefulWidget {
