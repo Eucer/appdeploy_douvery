@@ -30270,7 +30270,7 @@ if(p<q){k=j.lZ(p)
 if(s.$2(a,k)>0){B.b.l(j.b,b,k)
 b=p}}B.b.l(j.b,b,a)}}
 A.xO.prototype={
-M(a){return new A.oY(B.A_,"Flutter Demo pepepe",A.a4b(null,B.es,null),null)}}
+M(a){return new A.oY(B.A_,"Flutter Demo",A.a4b(null,B.es,null),null)}}
 A.p8.prototype={
 an(){return new A.rM(B.l)}}
 A.rM.prototype={

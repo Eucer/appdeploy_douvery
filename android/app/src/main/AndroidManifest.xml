@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.copy">
+    package="com.example.douvery">
    <application
-        android:label="copy"
+        android:label="douvery"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
