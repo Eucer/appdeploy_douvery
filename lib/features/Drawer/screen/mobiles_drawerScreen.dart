@@ -176,7 +176,7 @@ class headerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const url =
-        'https://media.istockphoto.com/photos/learn-to-love-yourself-first-picture-id1291208214?b=1&k=20&m=1291208214&s=170667a&w=0&h=sAq9SonSuefj3d4WKy4KzJvUiLERXge9VgZO-oqKUOo=';
+        'https://res.cloudinary.com/douvery/image/upload/v1664075651/categoryAccount/rw4wogby45zbh1eaglbp.png';
     final currentTheme = Provider.of<ThemeProvider>(context);
     final user = Provider.of<UserProvider>(context).user;
     return Row(

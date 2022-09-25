@@ -1,4 +1,4 @@
-#Sat Sep 24 22:57:15 BOT 2022
+#Sat Sep 24 23:20:39 BOT 2022
 base.0=C\:\\Users\\germi\\OneDrive\\Escritorio\\appStable\\Deploy\\v1douvery\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
