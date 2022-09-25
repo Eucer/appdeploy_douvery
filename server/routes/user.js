@@ -99,7 +99,20 @@ userRouter.put("/:id", auth, async (req,res) => {
 
 
 
+//* Add Images
+userRouter.post("/user/add-images", async (req, res) => {
+  try {
+    const {images} = req.body;
+    let user = new User({
+      images,
 
+    });
+    user = await user.save();
+    res.json(user);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
 
 
 

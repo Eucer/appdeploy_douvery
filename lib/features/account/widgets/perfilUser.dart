@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
+import 'package:flutter_native_splash/cli_commands.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -54,13 +55,14 @@ class PerfilUsuario extends StatelessWidget {
                           Container(
                             margin: EdgeInsets.only(left: 20),
                             child: Column(
-                              mainAxisAlignment: MainAxisAlignment.end,
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  user.name,
+                                  user.name.capitalize(),
                                   style: TextStyle(
                                     fontSize: 18,
-                                    fontWeight: FontWeight.w400,
+                                    fontWeight: FontWeight.w600,
                                     color: currentTheme.isDarkTheme()
                                         ? GlobalVariables
                                             .text2darkbackgroundColor
