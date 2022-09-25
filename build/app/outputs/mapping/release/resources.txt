@@ -1,0 +1,2175 @@
+android.content.res.Resources#getIdentifier present: true
+Web content present: false
+Referenced Strings:
+exception
+cancel
+DISMISS
+TextInput.requestAutofill
+app_flutter
+deviceId
+resolution
+kRepeat
+java.lang.Integer
+deleteDatabase
+actionIntent
+miguelruivo.flutter.plugins.filepicker
+music
+com.google.app.id
+verticalText
+FlutterSharedPreferences
+android.util.LongArray
+getUncaughtExceptionPreHandler
+SERVICE_DISABLED
+onBackPressed
+googleSignInAccount
+adapter
+GeneratedPluginsRegister
+LEFT
+LANDSCAPE_RIGHT
+java.lang.CharSequence
+_handled
+givenName
+androidx.window.layout.WindowInfoTrac...
+ActivityRule
+version
+click
+0
+size
+kotlin.jvm.functions.
+kotlinx.coroutines.DefaultExecutor
+WindowInfoTrackerImpl.kt
+left
+8
+onMenuKeyEvent
+android.support.useSideChannel
+TextInputClient.updateEditingStateWit...
+registerWith
+android.support.dataRemoteInputs
+SystemSoundType.alert
+REDUCE_MOTION
+kotlin.internal.JRE7PlatformImplement...
+displayName
+DECREASE
+$splitPairFilters
+PORTRAIT_DOWN
+LifecycleFragmentImpl
+sidecarAdapter
+libapp.so
+SignInClientImpl
+result
+middleInitial
+RestorationChannel
+showPaymentSelector
+SystemUiMode.immersiveSticky
+flutter/platform_views
+PHYSICAL_DISPLAY_PLATFORM_VIEW
+AccountAccessor
+TextCapitalization.words
+android.people
+updateViewLayout
+codePoint
+_
+SUCCESS
+d
+SystemUiOverlay.top
+destroy_engine_with_activity
+truncated
+kotlin.String
+sidecarDeviceState
+n
+displayFeatures
+paymentItems
+io.flutter.embedding.android.SplashSc...
+SwitchIntDef
+DRIVE_EXTERNAL_STORAGE_REQUIRED
+component
+java.lang.Module
+SUSPEND
+androidx.lifecycle.BundlableSavedStat...
+DEVELOPER_ERROR
+this$0
+splitPairFilters
+x
+Loaders:
+onNewIntent
+android:theme
+selectedItems
+SystemUiMode.edgeToEdge
+acc
+flutter_assets
+TextInputClient.performPrivateCommand
+displayFeature.rect
+flutter.
+already_active
+startIndex
+emailAddress
+addSuppressed
+android:style
+componentName
+SIGN_IN_REQUIRED
+activityComponent.className
+addressCountry
+SIGN_IN_FAILED
+LIGHT
+kotlinx.coroutines.default.parallelism
+extensionCallback
+com.google.android.gms.signin.interna...
+com.google.android.gms.signin.interna...
+LONG_PRESS
+DID_LOSE_ACCESSIBILITY_FOCUS
+HAS_CHECKED_STATE
+UNSET_PRIMARY_NAV
+FlutterEngine
+GoogleApiActivity
+flutter/keyevent
+failed_status
+phoneCountryCode
+telephoneNumberCountryCode
+error_code
+deviceState
+pendingIntent
+decimal
+plugins.flutter.io/pay_channel
+SystemChrome.setSystemUIOverlayStyle
+com.google.android.gms.dynamic.IObjec...
+TextInput.setEditableSizeAndTransform
+ROOT
+production
+enable_state_restoration
+COMPLETING_WAITING_CHILDREN
+HandlerLeak
+ClassVerificationFailure
+_invoked
+locale
+remove
+SDK_INT
+SET_SELECTION
+root
+_delayed
+android.os.Build
+android.support.localOnly
+io.flutter.embedding.android.OldGenHe...
+BITMAP_MASKABLE
+MOVE_CURSOR_BACKWARD_BY_CHARACTER
+FlutterSplashView
+kotlin.collections.List
+userCanPay
+IS_OBSCURED
+flutterPluginBinding
+MOVE_CURSOR_FORWARD_BY_CHARACTER
+label
+EmbeddingBackend
+message
+scanCode
+FlutterJNI
+android:support:fragments
+args
+ESTIMATED
+environment
+resizeUpLeft
+SignIn.API
+setDisplayFeatures
+HapticFeedbackType.lightImpact
+TextInputType.emailAddress
+creditCardExpirationDay
+ACTION_ARGUMENT_SET_TEXT_CHARSEQUENCE
+username
+FlutterActivity
+java.lang.Float
+decorate
+Dispatchers.IO
+RESTRICTED_PROFILE
+UNDEFINED
+delivered
+EmptyQueue
+embeddingExtension
+SCOPES_ROUTE
+android.os.Build$VERSION
+SplitPairRule
+executor
+android:cancelable
+IS_TEXT_FIELD
+SERVICE_MISSING
+kotlinx.coroutines.internal.StackTrac...
+write
+TextInputType.none
+onStop
+kotlin.coroutines.jvm.internal.a
+grantedScopes
+TextInputAction.none
+secondaryActivityName.className
+GoogleSignatureVerifier
+byte
+getNextMatch
+getDeferredComponentInstallState
+splitRule
+defaultGoogleSignInAccount
+name:
+com.google.android.gms.wallet.Payment...
+creditCardNumber
+resizeUp
+DiscouragedApi
+GooglePlayServicesUpdatingDialog
+onPostResume
+cmd
+io.flutter.Entrypoint
+CLIP_RECT
+other
+wait
+FlutterActivityAndFragmentDelegate
+birthDateYear
+IS_LINK
+GoogleApiAvailability
+%s.%sParcelizer
+cell
+safeCast
+URI
+URL
+completedTask
+FlutterTextureView
+CHARACTERS
+AppLifecycleState.resumed
+android.os.storage.StorageVolume
+top
+it.parameterTypes
+mNextServedView
+kotlin.Long
+com.tekartik.sqflite
+POLL_FAILED
+Completing
+java.lang.String
+addressRegion
+TextInput.setClient
+resizeDown
+_resumed
+android.settings.APPLICATION_DETAILS_...
+inTransaction
+BasePendingResult
+TextInputType.multiline
+getChildId
+payment_items
+invisible_actions
+PRIVATE
+LoaderManager
+framework
+wallet_payment_dynamic_update
+java.util.concurrent.ForkJoinPool
+ConnectionlessLifecycleHelper
+LIGHT_IMPACT
+noResult
+DESTROYED
+service_googleme
+androidx.core.app.extra.COMPAT_TEMPLATE
+activityPluginBinding
+New
+selectionExtent
+SystemChrome.setEnabledSystemUIOverlays
+MouseCursorChannel
+ATOMIC
+kotlin.collections.Collection
+invalid_format_type
+TextInputAction.send
+onStart
+android.widget.CheckBox
+com.google.android.gms.signin.interna...
+requestCode
+sqlite_error
+buffer
+HapticFeedback.vibrate
+repeatCount
+noDrop
+$activityFilters
+flutter/keydata
+void
+read
+memoryPressure
+flutter/restoration
+touch
+onUserLeaveHint
+_cur
+CommonPool
+MetadataValueReader
+onResume
+android.car.EXTENSIONS
+java.util.List
+OFFER_SUCCESS
+hybrid
+cn.google
+UNEXPECTED:
+android.support.sortKey
+getDirectory
+kotlin.Int
+basic
+collect
+kotlin.Throwable
+sidecarDisplayFeatures
+parkedWorkersStack
+IS_IMAGE
+PHONE
+COMPLETING_ALREADY
+systemNavigationBarColor
+cause
+displayCutout
+PlatformPlugin
+media
+java.lang.Iterable
+rect
+kotlinx.coroutines.DefaultExecutor.ke...
+kotlin.Annotation
+INVERT_COLORS
+com.google.android.gms.signin.interna...
+DEAD_CLIENT
+packageName
+LANDSCAPE_LEFT
+synchronizeToNativeViewHierarchy
+info.displayFeatures
+direction
+BITMAP
+windowConfiguration
+API_NOT_CONNECTED
+newConfig
+rows
+any
+resizeUpRight
+Array
+getDatabasesPath
+gcore_
+android:user_visible_hint
+ATTACH
+flutter/lifecycle
+TextInputType.number
+WindowServer
+activities
+setValue
+layout_inflater
+UNKNOWN
+ActivityFilter
+getParentNodeId
+RestrictedApi
+common_google_play_services_sign_in_f...
+accessibility
+getPoolSize
+com.google.android.gms.common.interna...
+getAppBounds
+SystemChrome.setEnabledSystemUIMode
+ringtones
+android.widget.HorizontalScrollView
+password
+GoogleApiHandler
+kotlinx.coroutines.scheduler.keep.ali...
+INCREASE
+VGhpcyBpcyB0aGUgcHJlZml4IGZvciBEb3VibGUu
+NO_TARGET
+ERROR
+jar
+state
+SERVICE_UPDATING
+secondaryActivityStack.activities
+CompanionObject
+element
+cache
+creditCardExpirationMonth
+pending_intent
+deltaText
+zoomIn
+Destroying.
+android.support.isGroupSummary
+setInt
+input
+allowedExtensions
+expirationTime
+remoteInputs
+pushRoute
+anim
+REMOVE_FROZEN
+resolveCallId
+FilePickerUtils
+flutterBinding.binaryMessenger
+POSTURE_FLAT
+androidx.savedstate.Restarter
+com.google.android.gms.common.api.Aut...
+kotlin.collections.ListIterator
+oemFeature.bounds
+dev.flutter.pigeon.PathProviderApi.ge...
+restricted_profile
+CUSTOM_ACTION
+TextInputClient.updateEditingStateWit...
+delimiters
+PROTECTED
+cached_engine_id
+STANDARD
+setRemoveOnCancelPolicy
+https://plus.google.com/
+newLayoutInfo
+IS_LIVE_REGION
+forbidden
+windowToken
+blockingTasksInBuffer
+onTrimMemory
+getSourceNodeId
+androidx.lifecycle.ViewModelProvider....
+call
+recovered
+streetAddress
+kotlin.Char
+android:backStackId
+flutter/isolate
+ACTION_ARGUMENT_EXTEND_SELECTION_BOOLEAN
+grab
+chars
+com.google.android.gms.wallet.EXTRA_T...
+dimen
+documents
+java.util.ListIterator
+kotlinx.coroutines.android.AndroidDis...
+SUCCESS_CACHE
+DefaultDispatcher
+SplitPlaceholderRule
+source
+kotlin.Double
+ALERT
+onActivityResult
+LocalizationChannel
+GoogleCertificates
+view
+java.lang.Short
+allScroll
+SystemChrome.systemUIChange
+android.widget.Button
+NewApi
+ViewCompat
+REPLACE
+com.google.android.gms.version
+addressCity
+primaryActivityName
+includeSubdomains
+overlay
+batch
+FINAL
+creditCardSecurityCode
+parentMetrics
+FULL
+NAME
+FragmentManager
+flutter
+phoneNumber
+composingBase
+name
+Class
+SERVICE_VERSION_UPDATE_REQUIRED
+DartExecutor
+fields
+SupportLifecycleFragmentImpl
+getDescriptor
+keymap
+FlutterLoader
+string
+onRequestPermissionsResult
+deltaStart
+kotlin.coroutines.jvm.internal.BaseCo...
+platformViewId
+android
+common_google_play_services_network_e...
+java.lang.module.ModuleDescriptor
+description
+nameSuffix
+common_google_play_services_invalid_a...
+EDGE_TO_EDGE
+LEAN_BACK
+video
+_isTerminated
+LifecycleChannel
+SEALED
+CREATED
+textScaleFactor
+activityBinding.activity
+android.intent.category.OPENABLE
+namePrefix
+com.google.android.gms.wallet.interna...
+SHOW
+android:view_state
+io.flutter.embedding.android.NormalTheme
+Dispatchers.Main
+INTERNAL_ERROR
+FlutterSurfaceView
+Cancelled
+notify_manager
+callbackWrapper
+getPosture
+pair
+android.title.big
+android.intent.action.PACKAGE_ADDED
+payment_profile
+DATETIME
+enableSuggestions
+primitiveFqNames.values
+PASTE
+GoogleApiManager
+com.google.android.gms.signin.interna...
+android.intent.action.VIEW
+IS_MULTILINE
+short
+middleName
+window
+personFamilyName
+Cancelling
+IS_HEADER
+CLIP_RRECT
+COMPLETING_RETRY
+VISIBLE_PASSWORD
+com.google.android.gms.common.interna...
+allowMultipleSelection
+IS_FOCUSABLE
+com.google.android.gms.common.interna...
+TextInput.clearClient
+AppLifecycleState.inactive
+UseSparseArrays
+SCROLL_RIGHT
+textCapitalization
+android.widget.ImageView
+android.widget.RadioButton
+moduleName
+circles
+oemFeature
+DialogRedirect
+getBounds
+put
+TextInputType.text
+EmptyCoroutineContext
+CPU_ACQUIRED
+ACTION_ARGUMENT_SELECTION_END_INT
+embeddingCallback
+SCROLL_LEFT
+options
+TextInputAction.search
+HapticFeedbackType.heavyImpact
+windowBackend
+InputConnectionAdaptor
+android:showsDialog
+flutter/platform
+identifier
+failed_client_id
+com.google
+tokenId
+kotlinx.coroutines.scheduler.core.poo...
+kotlinx.coroutines.scheduler.max.pool...
+paymentProfileString
+double
+newPassword
+POSTURE_HALF_OPENED
+POSTAL_ADDRESS
+smsOTPCode
+SystemChannel
+flutter_deeplinking_enabled
+ConnectionTracker
+viewFocused
+HEAVY_IMPACT
+light
+kotlin.Short
+showsUserInterface
+common_google_play_services_api_unava...
+bounds
+primaryActivityName.packageName
+PUBLIC
+RETRY_ATOMIC
+getDisplayFeatures
+BLOCKING
+uninstallDeferredComponent
+primary
+java.lang.Throwable
+BOLD_TEXT
+Dispatchers.Unconfined
+WalletClientImpl
+WindowInfoTrackerCallbackAdapter.kt
+flags
+$splitsWithActivity
+SystemSound.play
+SystemUiOverlay.bottom
+onPause
+enabled
+unknown
+android.intent.action.RUN
+android.widget.SeekBar
+INITIALIZED
+android.hardware.type.watch
+LAZY
+KeyEventChannel
+PlatformViewWrapper
+producerIndex
+REMOVE
+flutter/settings
+addressLocality
+setDirection
+java.util.Map$Entry
+SendQueued
+wallet
+serverAuthCode
+display
+com.google.android.gms.common.interna...
+SpellCheck.initiateSpellCheck
+composingExtent
+callbackInterface
+DeviceOrientation.landscapeLeft
+Wallet.API
+birthDateDay
+.immediate
+TextInputAction.unspecified
+libflutter.so
+width
+char
+PORTRAIT_UP
+IMMERSIVE
+com.google.android.gms.signin.interna...
+kotlinx.coroutines.fast.service.loader
+TAP
+kotlin.Any
+Brightness.dark
+listen
+setDouble
+selectionBase
+notification
+SettingsChannel
+plainCodePoint
+android.intent.action.GET_CONTENT
+com.google.android.gms.common.interna...
+_reusableCancellableContinuation
+android.view.View
+inputType
+java.lang.Byte
+AppBundleLocaleChanges
+com.google.android.gms.signin.interna...
+BOTH
+java.lang.Cloneable
+package
+deltaEnd
+kind
+com.android.vending
+com.google.android.gms.signin
+GeneratedPluginRegistrant
+SplitPairFilter
+io.flutter.embedding.android.EnableIm...
+_consensus
+SCROLL_UP
+WrongConstant
+kotlin.collections.Iterator
+CLOSED_EMPTY
+android.support.action.showsUserInter...
+job
+TextInputClient.requestExistingInputS...
+setLocale
+getUri
+Clipboard.setData
+TextInput.sendAppPrivateCommand
+TextInputType.phone
+SET_TEXT
+SystemChrome.restoreSystemUIOverlays
+android:support:request_fragment_who
+insert
+consumerIndex
+continueOnError
+point
+onCloseHandler
+com.google.android.gms.signin.interna...
+kotlin.Enum
+_removedRef
+CANCELED
+com.google.android.gms.signin.service...
+PlatformViewsChannel
+alias
+common_google_play_services_resolutio...
+deltas
+uniqueIdentifier
+kotlin.String.Companion
+pcampaignid
+amount
+move
+debug
+SplitRuleResolution
+alarms
+clear
+TextInput.show
+jClass
+setPosture
+splitInfo.primaryActivityStack
+primaryActivityName.className
+windowMetrics
+systemNavigationBarDividerColor
+NETWORK_ERROR
+CLIP_PATH
+suggestions
+user
+$splitRule
+getModule
+extent
+sidecarCompat
+resizeColumn
+java.specification.version
+plugins
+common_google_play_services_sign_in_f...
+tooltip
+kotlinx.coroutines.scheduler.blocking...
+kotlin.Cloneable
+IS_FOCUSED
+PlatformViewsController
+path
+com.google.android.gms.wallet.EXTRA_E...
+ReceiveQueued
+systemStatusBarContrastEnforced
+androidx.lifecycle.LifecycleDispatche...
+getSuppressed
+kotlin.reflect.jvm.internal.Reflectio...
+PARKING
+FOLD
+DartMessenger
+databases
+android:target_req_state
+setBool
+profile
+HIGH_CONTRAST
+android.intent.extra.ALLOW_MULTIPLE
+ON_ANY
+UntrackedBindService
+MOVE_CURSOR_BACKWARD_BY_WORD
+removeViewImmediate
+setString
+kotlinx.coroutines.scheduler.resoluti...
+kotlin.Unit
+removeView
+route
+ON_PAUSE
+getType
+birthdayDay
+domain
+kotlin.jvm.internal.StringCompanionOb...
+viewType
+editingValue
+getPlatformVersion
+OFFER_FAILED
+invokeSuspend
+common_google_play_services_resolutio...
+SidecarCompat
+Theme.Dialog.Alert
+getResPackage
+:memory:
+icon
+DROP_LATEST
+transparent
+java.
+SystemSoundType.click
+resizeUpDown
+GmsClientSupervisor
+logLevel
+popRoute
+background_mode
+NAMES_ROUTE
+paymentCanceled
+defaultDisplay
+throwableMethods
+common_google_play_services_restricte...
+completion
+clearFocus
+secondaryActivityIntent
+kUp
+FRAMEWORK_CLIENT
+DETACH
+FragmentActivity
+LOCALE
+hintText
+InlinedApi
+android.intent.action.PICK
+personNamePrefix
+activityComponent.packageName
+VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu
+LICENSE_CHECK_FAILED
+LayoutInflaterCompatHC
+ADD
+MEDIUM_IMPACT
+com.google.android.gms.wallet.EXTRA_U...
+feature.rect
+missingDelimiterValue
+listener
+dir
+BanParcelableUsage
+mFactory2
+installDeferredComponent
+android:support:request_indicies
+secondaryActivityName
+ruleComponent.className
+kotlin.Boolean
+activityBinding
+androidx.transition.FragmentTransitio...
+_queue
+android.bigText
+setSidecarCallback
+Override
+info
+DORMANT
+image
+TextInputChannel
+test
+componentName.className
+Failed
+queryAsMapList
+OPACITY
+NonDisposableHandle
+dev.flutter.pigeon.PathProviderApi.ge...
+dev.flutter.pigeon.PathProviderApi.ge...
+SyntheticAccessor
+TextInputType.name
+recoveredInTransaction
+navigation_bar_height
+java.lang.annotation.Annotation
+countryName
+FlutterImageView
+nodeId
+inputAction
+frame
+SignInCoordinator
+TERMINATED
+flutter/navigation
+Localization.getStringResource
+extendedAddress
+title
+content
+setStringList
+primaryActivity
+secondaryActivity
+kotlin.collections.Map
+com.google.android.gms.wallet.AutoRes...
+ENQUEUE_FAILED
+statusBarColor
+androidPackageName
+VGhpcyBpcyB0aGUgcHJlZml4IGZvciBCaWdJb...
+java.lang.Boolean
+continuation
+class
+DISABLE_ANIMATIONS
+DeferredComponentChannel
+DeviceOrientation.landscapeRight
+custom
+IconCompat
+false
+FlutterEngineCxnRegstry
+common_google_play_services_network_e...
+keydown
+workerCtl
+activateSystemCursor
+com.google.android.gms.wallet.interna...
+TextInputClient.updateEditingState
+SignIn.INTERNAL_API
+flutter/accessibility
+failed_resolution
+io.flutter.embedding.android.LeakVM
+resizeLeft
+resize
+TextEditingDelta
+setInitialRoute
+TextInputAction.next
+DEFAULT
+DROP_OLDEST
+android.support.allowGeneratedReplies
+splitInfoList
+TEXT
+com.google.android.gms.wallet.EXTRA_U...
+lastScheduledTask
+clipboard
+birthdayMonth
+com.tekartik.sqflite.wal_enabled
+autocorrect
+inFlightTasks
+HINGE
+java.lang.Character
+HapticFeedbackType.selectionClick
+endIndex
+context
+$newLayoutInfo
+action
+com.google.android.gms.signin.interna...
+text
+id
+birthdayYear
+SENTENCES
+isolate_snapshot_data
+TextInput.finishAutofillContext
+SPELLOUT
+surface
+com.google.android.clockwork.home.UPD...
+com.google.android.gms.signin.interna...
+raw:
+arch_disk_io_%d
+signed
+_bounds
+it
+RESOLUTION_REQUIRED
+PlatformChannel
+params
+announce
+FlutterView
+UNDECIDED
+MissingRemoteException
+SET_PRIMARY_NAV
+resolving_error
+TextInputType.address
+PLAIN_TEXT
+getResId
+TextInputType.url
+MOVE_CURSOR_FORWARD_BY_WORD
+kotlin.jvm.internal.
+obfuscatedIdentifier
+AccessibilityChannel
+TIMEOUT
+fullStreetAddress
+FilePicker
+status
+telephoneNumber
+totalPrice
+extras
+secondaryActivityStack
+file
+RIGHT
+android.summaryText
+placeholderIntent
+CancellableContinuation
+mServedView
+androidThreadPriority
+onDestroy
+IS_KEYBOARD_KEY
+miguelruivo.flutter.plugins.filepicke...
+HIDE
+android.intent.extra.MIME_TYPES
+personNameSuffix
+kotlin.jvm.functions.Function
+EmbeddingCompat
+addView
+off
+resizeLeftRight
+platformBrightness
+splitInfo.secondaryActivityStack
+TextInputAction.done
+android.widget.ScrollView
+com.google.android.gms.wallet.service...
+kotlin.internal.JRE8PlatformImplement...
+io.flutter.EntrypointUri
+onSaveInstanceState
+mH
+VIRTUAL_DISPLAY_PLATFORM_VIEW
+newIndent
+IS_SLIDER
+loadingUnitId
+resizeUpLeftDownRight
+KeyboardManager
+RESUMED
+SpellCheckChannel
+newUsername
+main
+activityFilters
+suffix
+com.google.android.gms.availability
+UnknownNullness
+com.google.android.gms.wallet.EXTRA_B...
+personMiddleInitial
+cleartextTrafficPermitted
+find
+API_UNAVAILABLE
+DID_GAIN_ACCESSIBILITY_FOCUS
+com.google.android.gms.signin.interna...
+kotlin.Number
+DeviceOrientation.portraitDown
+TOO_LATE_TO_CANCEL
+NULL
+birthDateMonth
+kDown
+ListenableEditingState
+separator
+personMiddleName
+UNFINISHED
+null
+grabbing
+NavigationChannel
+background
+StorageError
+alwaysUse24HourFormat
+true
+dispose
+phoneNational
+UNDISPATCHED
+TextInputType.visiblePassword
+birthday
+p0
+io.flutter.embedding.android.EnableSk...
+code
+featureBounds
+transformer
+FilePickerDelegate
+storage
+statusBarIconBrightness
+dcim
+ClickableViewAccessibility
+ON_OFF_SWITCH_LABELS
+sql
+asyncTraceEnd
+photoUrl
+transform
+total
+final_price
+STARTED
+activity.windowManager.maximumWindowM...
+kotlin.Comparable
+consumer
+show_password
+on
+baseKey
+nativeSpellCheckServiceDefined
+unknown_activity
+vm_snapshot_data
+currentDisplay
+Clipboard.getData
+longPress
+COROUTINE_SUSPENDED
+$result
+Trace
+ACCESSIBLE_NAVIGATION
+flutter/textinput
+bytes
+_LifecycleAdapter
+Completed
+callback
+RESUME_TOKEN
+mOnKeyListener
+android.permission.READ_EXTERNAL_STORAGE
+HAS_TOGGLED_STATE
+flutterBinding
+common_google_play_services_restricte...
+PathProviderPlugin
+IS_SELECTED
+commit
+AutoResolveHelper
+TextInput.hide
+android.support.actionExtras
+createAsync
+primaryActivityStack
+telephoneNumberNational
+.Companion
+character
+dev.flutter.pigeon.PathProviderApi.ge...
+EMAIL_ADDRESS
+java.lang.Long
+metaState
+java.util.Map
+TextInputPlugin
+INTERNAL
+android:support:next_request_index
+totalPriceStatus
+INTERRUPTED
+height
+CUT
+BOTTOM_OVERLAYS
+android.intent.action.OPEN_DOCUMENT_TREE
+_decision
+readOnly
+kotlinx.coroutines.flow.AbstractFlow
+execute
+flutter_native_splash
+input_method
+oldText
+Clipboard.hasStrings
+CONDITION_FALSE
+read_external_storage_denied
+statusCode
+com.google.android.gms.signin.interna...
+commonPool
+IS_IN_MUTUALLY_EXCLUSIVE_GROUP
+activity
+kotlin.Function
+RTL
+SAFE_PARCELABLE_NULL_STRING
+long
+SystemUiMode.immersive
+HALF_OPENED
+kotlinx.coroutines.channels.defaultBu...
+classes_to_restore
+activity.windowManager.currentWindowM...
+audio
+$this$$receiver
+key
+email
+kotlin.Enum.Companion
+RESOURCE
+android.type.verbatim
+creditCardExpirationDate
+service_esmobile
+silent
+GooglePlayServicesErrorDialog
+obscureText
+android:target_state
+texture
+secondaryActivityName.packageName
+WORDS
+SELECTION_CLICK
+windowMetricsCalculator
+kotlin.Float
+android.support.remoteInputs
+systemNavigationBarIconBrightness
+contextMenu
+withData
+handled
+SystemNavigator.pop
+resizeRight
+autofill
+TextInputAction.newline
+TextCapitalization.none
+operation
+common_google_play_services_invalid_a...
+_prev
+android.widget.EditText
+NO_DECISION
+secondaryActivity.intent
+postalCode
+com.google.android.gms.signin.interna...
+primaryColor
+rules
+Operations:
+personGivenName
+dev.flutter.pigeon.PathProviderApi.ge...
+pairs
+TextInput.setEditingState
+SERVICE_MISSING_PERMISSION
+details
+ON_START
+birthDateFull
+windowMetrics.bounds
+TOP_OVERLAYS
+ruleComponent
+Dispatchers.Default
+plugins.flutter.io/shared_preferences...
+kotlinx.coroutines.io.parallelism
+NUMBER
+query
+LIST_EMPTY
+java.util.Collection
+componentName.packageName
+collection
+android.view.DisplayInfo
+AppLifecycleState.paused
+postalAddressExtendedPostalCode
+NOT_IN_STACK
+TextInputAction.previous
+CLICK
+semanticAction
+_next
+debugMode
+MULTILINE
+removeObserver
+pending
+destination
+ON_DESTROY
+update
+rule
+enableDeltaModel
+com.google.android.gms
+INVALID_ACCOUNT
+closeDatabase
+downloads
+flutter/mousecursor
+textservices
+EMPTY
+text/plain
+kotlinx.coroutines.test.internal.Test...
+CUTOUT
+creditCardExpirationYear
+flutter/system
+BlockedPrivateApi
+SystemUiMode.leanBack
+HAS_IMPLICIT_SCROLLING
+filters
+androidx.core.app.NotificationCompat$...
+onWindowLayoutChangeListenerRemoved
+Dispatchers.Main.immediate
+dev.flutter.pigeon.PathProviderApi.ge...
+splitRules
+ON_CLOSE_HANDLER_INVOKED
+java.lang.Object
+REMOVED_TASK
+splitInfo
+SystemChrome.setSystemUIChangeListener
+base
+no_activity
+TextInput.setPlatformViewClient
+extendedPostalCode
+prefix
+binding
+zoomOut
+none
+type
+actionLabel
+movies
+TextCapitalization.sentences
+android.hardware.type.iot
+IMMERSIVE_STICKY
+VERTICAL
+delimiter
+PrivateConstructorForUtilityClass
+getPath
+HapticFeedbackType.mediumImpact
+NONE
+openDatabase
+Sqflite
+primaryActivityStack.activities
+com.android.providers.downloads.docum...
+android:savedDialogState
+ACTION_ARGUMENT_MOVEMENT_GRANULARITY_INT
+DeviceOrientation.portraitUp
+_display_name
+method
+hints
+systemNavigationBarContrastEnforced
+keyup
+onWindowLayoutChangeListenerAdded
+java.util.Set
+tekartik_sqflite.db
+ACTION_ARGUMENT_SELECTION_START_INT
+push
+_state
+SHOW_ON_SCREEN
+bad_param
+notifications
+brieflyShowPassword
+overridingDecorator
+newDeviceState
+kotlinx.coroutines.scheduler
+android.support.action.semanticAction
+gender
+market://details
+java.lang.Double
+columns
+AppLifecycleState.detached
+range
+resizeRow
+usesVirtualDisplay
+flutter/spellcheck
+IS_TOGGLED
+pictures
+GooglePlayServicesUtil
+feature
+NO_THREAD_ELEMENTS
+get
+dark
+tracker
+oneTimeCode
+FLAT
+singleInstance
+getDisplayInfo
+copy
+precise
+java.lang.Number
+BanUncheckedReflection
+resizeDownRight
+newLayout
+DARK
+COPY
+IS_READ_ONLY
+token
+initializer
+filter
+SystemChrome.setPreferredOrientations
+help
+phoneNumberDevice
+podcasts
+flutter/deferredcomponent
+elements
+java.lang.Comparable
+getVolumeList
+initializationElapsedRealtime
+URI_MASKABLE
+ON_CREATE
+HAS_ENABLED_STATE
+android.widget.Switch
+data
+resizeUpRightDownLeft
+IS_ENABLED
+ON_RESUME
+float
+OP_SET_MAX_LIFECYCLE
+IS_BUTTON
+API_VERSION_UPDATE_REQUIRED
+postalAddressExtended
+asyncTraceBegin
+TextCapitalization.characters
+java.lang.Enum
+enableIMEPersonalizedLearning
+familyName
+create
+TRANSFORM
+Flow.kt
+TextInputType.datetime
+android.hardware.type.embedded
+unknown_path
+TextInputAction.go
+tap
+android.support.groupKey
+offset
+androidx.window.java.layout.WindowInf...
+SystemChrome.setApplicationSwitcherDe...
+kotlin.jvm.internal.EnumCompanionObject
+IS_HIDDEN
+io.flutter.InitialRoute
+controlState
+transition_animation_scale
+SERVICE_INVALID
+keyCode
+sequence
+Active
+postalAddress
+telephoneNumberDevice
+kotlin.collections.Iterable
+DATA
+UTF8
+getUuid
+files
+flutter/localization
+HORIZONTAL
+FlutterRenderer
+methodCallHandler
+mChildNodeIds
+kotlin.collections.Map.Entry
+ruleComponent.packageName
+NOT_CURRENTLY_KNOWN
+line
+failing_client_id
+IS_CHECKED
+Brightness.light
+kotlinName
+LTR
+error
+kotlin.Byte
+ObsoleteSdkInt
+operations
+array
+isPrimary
+kotlin.collections.Set
+postfix
+value
+getWindowLayoutInfo
+getAll
+REUSABLE_CLAIMED
+opaque
+java.util.Iterator
+0x%08x
+GmsClient
+dart_entrypoint_args
+TextInputClient.performAction
+jar:file:
+addressState
+ON_STOP
+kotlin.CharSequence
+intent
+int
+transactionInfo
+personName
+fragment
+boolean
+/file_picker/
+com.google.android.wearable.app
+arguments
+com.google.android.inputmethod.latin
+emit
+SCROLL_DOWN
+AccessibilityBridge
+wallet_biometric_auth_keys
+Marking id:accessibility_action_clickable_span:2131034112 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_0:2131034113 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_1:2131034114 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_10:2131034115 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_11:2131034116 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_12:2131034117 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_13:2131034118 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_14:2131034119 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_15:2131034120 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_16:2131034121 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_17:2131034122 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_18:2131034123 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_19:2131034124 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_2:2131034125 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_20:2131034126 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_21:2131034127 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_22:2131034128 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_23:2131034129 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_24:2131034130 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_25:2131034131 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_26:2131034132 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_27:2131034133 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_28:2131034134 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_29:2131034135 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_3:2131034136 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_30:2131034137 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_31:2131034138 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_4:2131034139 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_5:2131034140 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_6:2131034141 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_7:2131034142 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_8:2131034143 used because it matches string pool constant acc
+Marking id:accessibility_custom_action_9:2131034144 used because it matches string pool constant acc
+Marking id:production:2131034199 used because it matches string pool constant production
+Marking id:locale:2131034188 used because it matches string pool constant locale
+Marking attr:environment:2130771990 used because it matches string pool constant environment
+Marking id:hybrid:2131034179 used because it matches string pool constant hybrid
+Marking id:accessibility_action_clickable_span:2131034112 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_0:2131034113 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_1:2131034114 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_10:2131034115 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_11:2131034116 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_12:2131034117 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_13:2131034118 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_14:2131034119 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_15:2131034120 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_16:2131034121 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_17:2131034122 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_18:2131034123 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_19:2131034124 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_2:2131034125 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_20:2131034126 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_21:2131034127 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_22:2131034128 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_23:2131034129 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_24:2131034130 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_25:2131034131 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_26:2131034132 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_27:2131034133 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_28:2131034134 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_29:2131034135 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_3:2131034136 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_30:2131034137 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_31:2131034138 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_4:2131034139 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_5:2131034140 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_6:2131034141 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_7:2131034142 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_8:2131034143 used because it matches string pool constant accessibility
+Marking id:accessibility_custom_action_9:2131034144 used because it matches string pool constant accessibility
+Marking attr:primaryActivityName:2130772023 used because it matches string pool constant primaryActivityName
+Marking color:androidx_core_ripple_material_light:2130837504 used because it matches string pool constant android
+Marking color:androidx_core_secondary_text_default_material_light:2130837505 used because it matches string pool constant android
+Marking id:android_pay:2131034152 used because it matches string pool constant android
+Marking id:android_pay_dark:2131034153 used because it matches string pool constant android
+Marking id:android_pay_light:2131034154 used because it matches string pool constant android
+Marking id:android_pay_light_with_border:2131034155 used because it matches string pool constant android
+Marking id:androidx_window_activity_scope:2131034156 used because it matches string pool constant android
+Marking attr:shortcutMatchRequired:2130772028 used because it matches string pool constant short
+Marking attr:windowTransitionStyle:2130772044 used because it matches string pool constant window
+Marking id:light:2131034185 used because it matches string pool constant light
+Marking attr:primaryActivityName:2130772023 used because it matches string pool constant primary
+Marking color:wallet_bright_foreground_disabled_holo_light:2130837519 used because it matches string pool constant wallet
+Marking color:wallet_bright_foreground_holo_dark:2130837520 used because it matches string pool constant wallet
+Marking color:wallet_bright_foreground_holo_light:2130837521 used because it matches string pool constant wallet
+Marking color:wallet_dim_foreground_disabled_holo_dark:2130837522 used because it matches string pool constant wallet
+Marking color:wallet_dim_foreground_holo_dark:2130837523 used because it matches string pool constant wallet
+Marking color:wallet_highlighted_text_holo_dark:2130837524 used because it matches string pool constant wallet
+Marking color:wallet_highlighted_text_holo_light:2130837525 used because it matches string pool constant wallet
+Marking color:wallet_hint_foreground_holo_dark:2130837526 used because it matches string pool constant wallet
+Marking color:wallet_hint_foreground_holo_light:2130837527 used because it matches string pool constant wallet
+Marking color:wallet_holo_blue_light:2130837528 used because it matches string pool constant wallet
+Marking color:wallet_link_text_light:2130837529 used because it matches string pool constant wallet
+Marking color:wallet_primary_text_holo_light:2130837530 used because it matches string pool constant wallet
+Marking color:wallet_secondary_text_holo_dark:2130837531 used because it matches string pool constant wallet
+Marking layout:wallet_test_layout:2131165191 used because it matches string pool constant wallet
+Marking string:wallet_buy_button_place_holder:2131296275 used because it matches string pool constant wallet
+Marking color:notification_action_color_filter:2130837517 used because it matches string pool constant notification
+Marking color:notification_icon_bg_color:2130837518 used because it matches string pool constant notification
+Marking dimen:notification_action_icon_size:2130903047 used because it matches string pool constant notification
+Marking dimen:notification_action_text_size:2130903048 used because it matches string pool constant notification
+Marking dimen:notification_big_circle_margin:2130903049 used because it matches string pool constant notification
+Marking dimen:notification_content_margin_start:2130903050 used because it matches string pool constant notification
+Marking dimen:notification_large_icon_height:2130903051 used because it matches string pool constant notification
+Marking dimen:notification_large_icon_width:2130903052 used because it matches string pool constant notification
+Marking dimen:notification_main_column_padding_top:2130903053 used because it matches string pool constant notification
+Marking dimen:notification_media_narrow_margin:2130903054 used because it matches string pool constant notification
+Marking dimen:notification_right_icon_size:2130903055 used because it matches string pool constant notification
+Marking dimen:notification_right_side_padding_top:2130903056 used because it matches string pool constant notification
+Marking dimen:notification_small_icon_background_padding:2130903057 used because it matches string pool constant notification
+Marking dimen:notification_small_icon_size_as_large:2130903058 used because it matches string pool constant notification
+Marking dimen:notification_subtext_size:2130903059 used because it matches string pool constant notification
+Marking dimen:notification_top_pad:2130903060 used because it matches string pool constant notification
+Marking dimen:notification_top_pad_large_text:2130903061 used because it matches string pool constant notification
+Marking drawable:notification_action_background:2130968598 used because it matches string pool constant notification
+Marking drawable:notification_bg:2130968599 used because it matches string pool constant notification
+Marking drawable:notification_bg_low:2130968600 used because it matches string pool constant notification
+Marking drawable:notification_bg_low_normal:2130968601 used because it matches string pool constant notification
+Marking drawable:notification_bg_low_pressed:2130968602 used because it matches string pool constant notification
+Marking drawable:notification_bg_normal:2130968603 used because it matches string pool constant notification
+Marking drawable:notification_bg_normal_pressed:2130968604 used because it matches string pool constant notification
+Marking drawable:notification_icon_background:2130968605 used because it matches string pool constant notification
+Marking drawable:notification_template_icon_bg:2130968606 used because it matches string pool constant notification
+Marking drawable:notification_template_icon_low_bg:2130968607 used because it matches string pool constant notification
+Marking drawable:notification_tile_bg:2130968608 used because it matches string pool constant notification
+Marking id:notification_background:2131034196 used because it matches string pool constant notification
+Marking id:notification_main_column:2131034197 used because it matches string pool constant notification
+Marking id:notification_main_column_container:2131034198 used because it matches string pool constant notification
+Marking layout:notification_action:2131165185 used because it matches string pool constant notification
+Marking layout:notification_action_tombstone:2131165186 used because it matches string pool constant notification
+Marking layout:notification_template_custom_big:2131165187 used because it matches string pool constant notification
+Marking layout:notification_template_icon_group:2131165188 used because it matches string pool constant notification
+Marking layout:notification_template_part_chronometer:2131165189 used because it matches string pool constant notification
+Marking layout:notification_template_part_time:2131165190 used because it matches string pool constant notification
+Marking attr:clearTop:2130771987 used because it matches string pool constant clear
+Marking id:icon:2131034180 used because it matches string pool constant icon
+Marking id:icon_group:2131034181 used because it matches string pool constant icon
+Marking id:icon_only:2131034182 used because it matches string pool constant icon
+Marking attr:secondaryActivityName:2130772027 used because it matches string pool constant secondaryActivityName
+Marking id:info:2131034183 used because it matches string pool constant info
+Marking attr:imageAspectRatio:2130772006 used because it matches string pool constant image
+Marking attr:imageAspectRatioAdjust:2130772007 used because it matches string pool constant image
+Marking id:test:2131034223 used because it matches string pool constant test
+Marking id:title:2131034227 used because it matches string pool constant title
+Marking attr:primaryActivityName:2130772023 used because it matches string pool constant primaryActivity
+Marking attr:secondaryActivityAction:2130772026 used because it matches string pool constant secondaryActivity
+Marking attr:secondaryActivityName:2130772027 used because it matches string pool constant secondaryActivity
+Marking id:classic:2131034166 used because it matches string pool constant class
+Marking attr:customThemeStyle:2130771989 used because it matches string pool constant custom
+Marking layout:custom_dialog:2131165184 used because it matches string pool constant custom
+Marking id:action_container:2131034145 used because it matches string pool constant action
+Marking id:action_divider:2131034146 used because it matches string pool constant action
+Marking id:action_image:2131034147 used because it matches string pool constant action
+Marking id:action_text:2131034148 used because it matches string pool constant action
+Marking id:actions:2131034149 used because it matches string pool constant action
+Marking id:text:2131034224 used because it matches string pool constant text
+Marking id:text2:2131034225 used because it matches string pool constant text
+Marking integer:status_bar_notification_info_maxnum:2131099649 used because it matches string pool constant status
+Marking string:status_bar_notification_info_overflow:2131296274 used because it matches string pool constant status
+Marking attr:activityAction:2130771968 used because it matches string pool constant activity
+Marking attr:activityName:2130771969 used because it matches string pool constant activity
+Marking attr:queryPatterns:2130772024 used because it matches string pool constant query
+Marking id:none:2131034194 used because it matches string pool constant none
+Marking id:dark:2131034167 used because it matches string pool constant dark
+Marking id:line1:2131034186 used because it matches string pool constant line
+Marking id:line3:2131034187 used because it matches string pool constant line
+Marking attr:fragmentMode:2130772004 used because it matches string pool constant fragment
+Marking attr:fragmentStyle:2130772005 used because it matches string pool constant fragment
+@attr/activityAction : reachable=true
+@attr/activityName : reachable=true
+@attr/alpha : reachable=false
+@attr/alwaysExpand : reachable=false
+@attr/ambientEnabled : reachable=false
+@attr/appTheme : reachable=false
+@attr/buttonSize : reachable=false
+@attr/buyButtonAppearance : reachable=false
+@attr/buyButtonHeight : reachable=false
+@attr/buyButtonText : reachable=false
+@attr/buyButtonWidth : reachable=false
+@attr/cameraBearing : reachable=false
+@attr/cameraMaxZoomPreference : reachable=false
+@attr/cameraMinZoomPreference : reachable=false
+@attr/cameraTargetLat : reachable=false
+@attr/cameraTargetLng : reachable=false
+@attr/cameraTilt : reachable=false
+@attr/cameraZoom : reachable=false
+@attr/circleCrop : reachable=false
+@attr/clearTop : reachable=true
+@attr/colorScheme : reachable=false
+@attr/customThemeStyle : reachable=true
+@attr/environment : reachable=true
+@attr/finishPrimaryWithSecondary : reachable=false
+@attr/finishSecondaryWithPrimary : reachable=false
+@attr/font : reachable=false
+@attr/fontProviderAuthority : reachable=false
+@attr/fontProviderCerts : reachable=false
+@attr/fontProviderFetchStrategy : reachable=false
+@attr/fontProviderFetchTimeout : reachable=false
+@attr/fontProviderPackage : reachable=false
+@attr/fontProviderQuery : reachable=false
+@attr/fontProviderSystemFontFamily : reachable=false
+@attr/fontStyle : reachable=false
+@attr/fontVariationSettings : reachable=false
+@attr/fontWeight : reachable=false
+@attr/fragmentMode : reachable=true
+@attr/fragmentStyle : reachable=true
+@attr/imageAspectRatio : reachable=true
+@attr/imageAspectRatioAdjust : reachable=true
+@attr/latLngBoundsNorthEastLatitude : reachable=false
+@attr/latLngBoundsNorthEastLongitude : reachable=false
+@attr/latLngBoundsSouthWestLatitude : reachable=false
+@attr/latLngBoundsSouthWestLongitude : reachable=false
+@attr/liteMode : reachable=false
+@attr/mapType : reachable=false
+@attr/maskedWalletDetailsBackground : reachable=false
+@attr/maskedWalletDetailsButtonBackground : reachable=false
+@attr/maskedWalletDetailsButtonTextAppearance : reachable=false
+@attr/maskedWalletDetailsHeaderTextAppearance : reachable=false
+@attr/maskedWalletDetailsLogoImageType : reachable=false
+@attr/maskedWalletDetailsLogoTextColor : reachable=false
+@attr/maskedWalletDetailsTextAppearance : reachable=false
+@attr/nestedScrollViewStyle : reachable=false
+@attr/placeholderActivityName : reachable=false
+@attr/primaryActivityName : reachable=true
+@attr/queryPatterns : reachable=true
+@attr/scopeUris : reachable=false
+@attr/secondaryActivityAction : reachable=true
+@attr/secondaryActivityName : reachable=true
+@attr/shortcutMatchRequired : reachable=true
+@attr/splitLayoutDirection : reachable=false
+@attr/splitMinSmallestWidth : reachable=false
+@attr/splitMinWidth : reachable=false
+@attr/splitRatio : reachable=false
+@attr/toolbarTextColorStyle : reachable=false
+@attr/ttcIndex : reachable=false
+@attr/uiCompass : reachable=false
+@attr/uiMapToolbar : reachable=false
+@attr/uiRotateGestures : reachable=false
+@attr/uiScrollGestures : reachable=false
+@attr/uiScrollGesturesDuringRotateOrZoom : reachable=false
+@attr/uiTiltGestures : reachable=false
+@attr/uiZoomControls : reachable=false
+@attr/uiZoomGestures : reachable=false
+@attr/useViewLifecycle : reachable=false
+@attr/windowTransitionStyle : reachable=true
+@attr/zOrderOnTop : reachable=false
+@color/androidx_core_ripple_material_light : reachable=true
+@color/androidx_core_secondary_text_default_material_light : reachable=true
+@color/common_google_signin_btn_text_dark : reachable=false
+    @color/common_google_signin_btn_text_dark_disabled
+    @color/common_google_signin_btn_text_dark_pressed
+    @color/common_google_signin_btn_text_dark_focused
+    @color/common_google_signin_btn_text_dark_default
+@color/common_google_signin_btn_text_dark_default : reachable=false
+@color/common_google_signin_btn_text_dark_disabled : reachable=false
+@color/common_google_signin_btn_text_dark_focused : reachable=false
+@color/common_google_signin_btn_text_dark_pressed : reachable=false
+@color/common_google_signin_btn_text_light : reachable=false
+    @color/common_google_signin_btn_text_light_disabled
+    @color/common_google_signin_btn_text_light_pressed
+    @color/common_google_signin_btn_text_light_focused
+    @color/common_google_signin_btn_text_light_default
+@color/common_google_signin_btn_text_light_default : reachable=false
+@color/common_google_signin_btn_text_light_disabled : reachable=false
+@color/common_google_signin_btn_text_light_focused : reachable=false
+@color/common_google_signin_btn_text_light_pressed : reachable=false
+@color/common_google_signin_btn_tint : reachable=false
+@color/notification_action_color_filter : reachable=true
+    @color/androidx_core_secondary_text_default_material_light
+@color/notification_icon_bg_color : reachable=true
+@color/wallet_bright_foreground_disabled_holo_light : reachable=true
+@color/wallet_bright_foreground_holo_dark : reachable=true
+@color/wallet_bright_foreground_holo_light : reachable=true
+@color/wallet_dim_foreground_disabled_holo_dark : reachable=true
+@color/wallet_dim_foreground_holo_dark : reachable=true
+@color/wallet_highlighted_text_holo_dark : reachable=true
+@color/wallet_highlighted_text_holo_light : reachable=true
+@color/wallet_hint_foreground_holo_dark : reachable=true
+@color/wallet_hint_foreground_holo_light : reachable=true
+@color/wallet_holo_blue_light : reachable=true
+@color/wallet_link_text_light : reachable=true
+@color/wallet_primary_text_holo_light : reachable=true
+    @color/wallet_bright_foreground_disabled_holo_light
+    @color/wallet_bright_foreground_holo_light
+@color/wallet_secondary_text_holo_dark : reachable=true
+    @color/wallet_dim_foreground_disabled_holo_dark
+    @color/wallet_dim_foreground_holo_dark
+@dimen/compat_button_inset_horizontal_material : reachable=false
+@dimen/compat_button_inset_vertical_material : reachable=false
+@dimen/compat_button_padding_horizontal_material : reachable=false
+@dimen/compat_button_padding_vertical_material : reachable=false
+@dimen/compat_control_corner_material : reachable=false
+@dimen/compat_notification_large_icon_max_height : reachable=false
+@dimen/compat_notification_large_icon_max_width : reachable=false
+@dimen/notification_action_icon_size : reachable=true
+@dimen/notification_action_text_size : reachable=true
+@dimen/notification_big_circle_margin : reachable=true
+@dimen/notification_content_margin_start : reachable=true
+@dimen/notification_large_icon_height : reachable=true
+@dimen/notification_large_icon_width : reachable=true
+@dimen/notification_main_column_padding_top : reachable=true
+@dimen/notification_media_narrow_margin : reachable=true
+    @dimen/notification_content_margin_start
+@dimen/notification_right_icon_size : reachable=true
+@dimen/notification_right_side_padding_top : reachable=true
+@dimen/notification_small_icon_background_padding : reachable=true
+@dimen/notification_small_icon_size_as_large : reachable=true
+@dimen/notification_subtext_size : reachable=true
+@dimen/notification_top_pad : reachable=true
+@dimen/notification_top_pad_large_text : reachable=true
+@drawable/common_full_open_on_phone : reachable=true
+@drawable/common_google_signin_btn_icon_dark : reachable=false
+    @drawable/common_google_signin_btn_icon_disabled
+    @drawable/common_google_signin_btn_icon_dark_focused
+    @drawable/common_google_signin_btn_icon_dark_normal
+@drawable/common_google_signin_btn_icon_dark_focused : reachable=false
+    @drawable/common_google_signin_btn_icon_dark_normal
+@drawable/common_google_signin_btn_icon_dark_normal : reachable=false
+    @drawable/common_google_signin_btn_icon_dark_normal_background
+    @drawable/googleg_standard_color_18
+@drawable/common_google_signin_btn_icon_dark_normal_background : reachable=false
+@drawable/common_google_signin_btn_icon_disabled : reachable=false
+    @drawable/googleg_disabled_color_18
+@drawable/common_google_signin_btn_icon_light : reachable=false
+    @drawable/common_google_signin_btn_icon_disabled
+    @drawable/common_google_signin_btn_icon_light_focused
+    @drawable/common_google_signin_btn_icon_light_normal
+@drawable/common_google_signin_btn_icon_light_focused : reachable=false
+    @drawable/common_google_signin_btn_icon_light_normal
+@drawable/common_google_signin_btn_icon_light_normal : reachable=false
+    @drawable/common_google_signin_btn_icon_light_normal_background
+    @drawable/googleg_standard_color_18
+@drawable/common_google_signin_btn_icon_light_normal_background : reachable=false
+@drawable/common_google_signin_btn_text_dark : reachable=false
+    @drawable/common_google_signin_btn_text_disabled
+    @drawable/common_google_signin_btn_text_dark_focused
+    @drawable/common_google_signin_btn_text_dark_normal
+@drawable/common_google_signin_btn_text_dark_focused : reachable=false
+    @drawable/common_google_signin_btn_text_dark_normal
+@drawable/common_google_signin_btn_text_dark_normal : reachable=false
+    @drawable/common_google_signin_btn_text_dark_normal_background
+    @drawable/googleg_standard_color_18
+@drawable/common_google_signin_btn_text_dark_normal_background : reachable=false
+@drawable/common_google_signin_btn_text_disabled : reachable=false
+    @drawable/googleg_disabled_color_18
+@drawable/common_google_signin_btn_text_light : reachable=false
+    @drawable/common_google_signin_btn_text_disabled
+    @drawable/common_google_signin_btn_text_light_focused
+    @drawable/common_google_signin_btn_text_light_normal
+@drawable/common_google_signin_btn_text_light_focused : reachable=false
+    @drawable/common_google_signin_btn_text_light_normal
+@drawable/common_google_signin_btn_text_light_normal : reachable=false
+    @drawable/common_google_signin_btn_text_light_normal_background
+    @drawable/googleg_standard_color_18
+@drawable/common_google_signin_btn_text_light_normal_background : reachable=false
+@drawable/googleg_disabled_color_18 : reachable=false
+@drawable/googleg_standard_color_18 : reachable=false
+@drawable/launch_background : reachable=false
+@drawable/notification_action_background : reachable=true
+    @color/androidx_core_ripple_material_light
+    @dimen/compat_button_inset_horizontal_material
+    @dimen/compat_button_inset_vertical_material
+    @dimen/compat_control_corner_material
+    @dimen/compat_button_padding_horizontal_material
+    @dimen/compat_button_padding_vertical_material
+@drawable/notification_bg : reachable=true
+    @drawable/notification_bg_normal_pressed
+    @drawable/notification_bg_normal
+@drawable/notification_bg_low : reachable=true
+    @drawable/notification_bg_low_pressed
+    @drawable/notification_bg_low_normal
+@drawable/notification_bg_low_normal : reachable=true
+@drawable/notification_bg_low_pressed : reachable=true
+@drawable/notification_bg_normal : reachable=true
+@drawable/notification_bg_normal_pressed : reachable=true
+@drawable/notification_icon_background : reachable=true
+    @color/notification_icon_bg_color
+@drawable/notification_template_icon_bg : reachable=true
+@drawable/notification_template_icon_low_bg : reachable=true
+@drawable/notification_tile_bg : reachable=true
+    @drawable/notify_panel_notification_icon_bg
+@drawable/notify_panel_notification_icon_bg : reachable=false
+@id/accessibility_action_clickable_span : reachable=true
+@id/accessibility_custom_action_0 : reachable=true
+@id/accessibility_custom_action_1 : reachable=true
+@id/accessibility_custom_action_10 : reachable=true
+@id/accessibility_custom_action_11 : reachable=true
+@id/accessibility_custom_action_12 : reachable=true
+@id/accessibility_custom_action_13 : reachable=true
+@id/accessibility_custom_action_14 : reachable=true
+@id/accessibility_custom_action_15 : reachable=true
+@id/accessibility_custom_action_16 : reachable=true
+@id/accessibility_custom_action_17 : reachable=true
+@id/accessibility_custom_action_18 : reachable=true
+@id/accessibility_custom_action_19 : reachable=true
+@id/accessibility_custom_action_2 : reachable=true
+@id/accessibility_custom_action_20 : reachable=true
+@id/accessibility_custom_action_21 : reachable=true
+@id/accessibility_custom_action_22 : reachable=true
+@id/accessibility_custom_action_23 : reachable=true
+@id/accessibility_custom_action_24 : reachable=true
+@id/accessibility_custom_action_25 : reachable=true
+@id/accessibility_custom_action_26 : reachable=true
+@id/accessibility_custom_action_27 : reachable=true
+@id/accessibility_custom_action_28 : reachable=true
+@id/accessibility_custom_action_29 : reachable=true
+@id/accessibility_custom_action_3 : reachable=true
+@id/accessibility_custom_action_30 : reachable=true
+@id/accessibility_custom_action_31 : reachable=true
+@id/accessibility_custom_action_4 : reachable=true
+@id/accessibility_custom_action_5 : reachable=true
+@id/accessibility_custom_action_6 : reachable=true
+@id/accessibility_custom_action_7 : reachable=true
+@id/accessibility_custom_action_8 : reachable=true
+@id/accessibility_custom_action_9 : reachable=true
+@id/action_container : reachable=true
+@id/action_divider : reachable=true
+@id/action_image : reachable=true
+@id/action_text : reachable=true
+@id/actions : reachable=true
+@id/adjust_height : reachable=false
+@id/adjust_width : reachable=false
+@id/android_pay : reachable=true
+@id/android_pay_dark : reachable=true
+@id/android_pay_light : reachable=true
+@id/android_pay_light_with_border : reachable=true
+@id/androidx_window_activity_scope : reachable=true
+@id/async : reachable=false
+@id/auto : reachable=false
+@id/blocking : reachable=false
+@id/book_now : reachable=false
+@id/buyButton : reachable=false
+@id/buy_now : reachable=false
+@id/buy_with : reachable=false
+@id/buy_with_google : reachable=false
+@id/chronometer : reachable=false
+@id/classic : reachable=true
+@id/dark : reachable=true
+@id/dialog_button : reachable=false
+@id/donate_with : reachable=false
+@id/donate_with_google : reachable=false
+@id/forever : reachable=false
+@id/googleMaterial2 : reachable=false
+@id/google_wallet_classic : reachable=false
+@id/google_wallet_grayscale : reachable=false
+@id/google_wallet_monochrome : reachable=false
+@id/grayscale : reachable=false
+@id/holo_dark : reachable=false
+@id/holo_light : reachable=false
+@id/hybrid : reachable=true
+@id/icon : reachable=true
+@id/icon_group : reachable=true
+@id/icon_only : reachable=true
+@id/info : reachable=true
+@id/italic : reachable=false
+@id/light : reachable=true
+@id/line1 : reachable=true
+@id/line3 : reachable=true
+@id/locale : reachable=true
+@id/logo_only : reachable=false
+@id/ltr : reachable=false
+@id/match_parent : reachable=false
+@id/material : reachable=false
+@id/monochrome : reachable=false
+@id/none : reachable=true
+@id/normal : reachable=false
+@id/notification_background : reachable=true
+@id/notification_main_column : reachable=true
+@id/notification_main_column_container : reachable=true
+@id/production : reachable=true
+@id/right_icon : reachable=false
+@id/right_side : reachable=false
+@id/rtl : reachable=false
+@id/sandbox : reachable=false
+@id/satellite : reachable=false
+@id/selectionDetails : reachable=false
+@id/slide : reachable=false
+@id/standard : reachable=false
+@id/strict_sandbox : reachable=false
+@id/tag_accessibility_actions : reachable=false
+@id/tag_accessibility_clickable_spans : reachable=false
+@id/tag_accessibility_heading : reachable=false
+@id/tag_accessibility_pane_title : reachable=true
+@id/tag_on_apply_window_listener : reachable=false
+@id/tag_on_receive_content_listener : reachable=false
+@id/tag_on_receive_content_mime_types : reachable=false
+@id/tag_screen_reader_focusable : reachable=false
+@id/tag_state_description : reachable=false
+@id/tag_transition_group : reachable=true
+@id/tag_unhandled_key_event_manager : reachable=true
+@id/tag_unhandled_key_listeners : reachable=true
+@id/tag_window_insets_animation_callback : reachable=false
+@id/terrain : reachable=false
+@id/test : reachable=true
+@id/text : reachable=true
+@id/text2 : reachable=true
+@id/time : reachable=false
+@id/title : reachable=true
+@id/wide : reachable=false
+@id/wrap_content : reachable=false
+@integer/google_play_services_version : reachable=true
+@integer/status_bar_notification_info_maxnum : reachable=true
+@layout/custom_dialog : reachable=true
+@layout/notification_action : reachable=true
+    @style/Widget_Compat_NotificationActionContainer
+    @dimen/notification_action_icon_size
+    @style/Widget_Compat_NotificationActionText
+@layout/notification_action_tombstone : reachable=true
+    @style/Widget_Compat_NotificationActionContainer
+    @dimen/notification_action_icon_size
+    @style/Widget_Compat_NotificationActionText
+@layout/notification_template_custom_big : reachable=true
+    @dimen/notification_large_icon_width
+    @dimen/notification_large_icon_height
+    @dimen/notification_main_column_padding_top
+    @dimen/notification_content_margin_start
+    @dimen/notification_right_side_padding_top
+    @layout/notification_template_part_time
+    @layout/notification_template_part_chronometer
+    @style/TextAppearance_Compat_Notification_Info
+    @layout/notification_template_icon_group
+@layout/notification_template_icon_group : reachable=true
+    @dimen/notification_large_icon_width
+    @dimen/notification_large_icon_height
+    @dimen/notification_big_circle_margin
+    @dimen/notification_right_icon_size
+@layout/notification_template_part_chronometer : reachable=true
+    @style/TextAppearance_Compat_Notification_Time
+@layout/notification_template_part_time : reachable=true
+    @style/TextAppearance_Compat_Notification_Time
+@layout/wallet_test_layout : reachable=true
+@mipmap/ic_launcher : reachable=true
+@string/common_google_play_services_enable_button : reachable=true
+@string/common_google_play_services_enable_text : reachable=true
+@string/common_google_play_services_enable_title : reachable=true
+@string/common_google_play_services_install_button : reachable=true
+@string/common_google_play_services_install_text : reachable=true
+@string/common_google_play_services_install_title : reachable=true
+@string/common_google_play_services_notification_channel_name : reachable=true
+@string/common_google_play_services_notification_ticker : reachable=true
+@string/common_google_play_services_unknown_issue : reachable=true
+@string/common_google_play_services_unsupported_text : reachable=true
+@string/common_google_play_services_update_button : reachable=true
+@string/common_google_play_services_update_text : reachable=true
+@string/common_google_play_services_update_title : reachable=true
+@string/common_google_play_services_updating_text : reachable=true
+@string/common_google_play_services_wear_update_text : reachable=true
+@string/common_open_on_phone : reachable=true
+@string/common_signin_button_text : reachable=false
+@string/common_signin_button_text_long : reachable=false
+@string/status_bar_notification_info_overflow : reachable=true
+@string/wallet_buy_button_place_holder : reachable=true
+@style/LaunchTheme : reachable=true
+    @drawable/launch_background
+@style/NormalTheme : reachable=true
+@style/TextAppearance_Compat_Notification : reachable=false
+@style/TextAppearance_Compat_Notification_Info : reachable=false
+    @style/TextAppearance_Compat_Notification
+@style/TextAppearance_Compat_Notification_Line2 : reachable=false
+    @style/TextAppearance_Compat_Notification_Info
+@style/TextAppearance_Compat_Notification_Time : reachable=false
+    @style/TextAppearance_Compat_Notification
+@style/TextAppearance_Compat_Notification_Title : reachable=false
+@style/WalletFragmentDefaultButtonTextAppearance : reachable=false
+    @color/wallet_primary_text_holo_light
+    @color/wallet_highlighted_text_holo_light
+    @color/wallet_hint_foreground_holo_light
+    @color/wallet_link_text_light
+@style/WalletFragmentDefaultDetailsHeaderTextAppearance : reachable=false
+    @style/WalletFragmentDefaultDetailsTextAppearance
+@style/WalletFragmentDefaultDetailsTextAppearance : reachable=false
+    @color/wallet_secondary_text_holo_dark
+    @color/wallet_highlighted_text_holo_dark
+    @color/wallet_hint_foreground_holo_dark
+    @color/wallet_holo_blue_light
+@style/WalletFragmentDefaultStyle : reachable=false
+    @attr/buyButtonHeight
+    @attr/buyButtonWidth
+    @attr/buyButtonText
+    @attr/buyButtonAppearance
+    @style/WalletFragmentDefaultDetailsTextAppearance
+    @attr/maskedWalletDetailsTextAppearance
+    @style/WalletFragmentDefaultDetailsHeaderTextAppearance
+    @attr/maskedWalletDetailsHeaderTextAppearance
+    @color/wallet_bright_foreground_holo_light
+    @attr/maskedWalletDetailsBackground
+    @attr/maskedWalletDetailsButtonBackground
+    @style/WalletFragmentDefaultButtonTextAppearance
+    @attr/maskedWalletDetailsButtonTextAppearance
+    @color/wallet_bright_foreground_holo_dark
+    @attr/maskedWalletDetailsLogoTextColor
+    @attr/maskedWalletDetailsLogoImageType
+@style/Widget_Compat_NotificationActionContainer : reachable=false
+    @drawable/notification_action_background
+@style/Widget_Compat_NotificationActionText : reachable=false
+    @color/androidx_core_secondary_text_default_material_light
+    @dimen/notification_action_text_size
+
+The root reachable resources are:
+ attr:activityAction:2130771968
+ attr:activityName:2130771969
+ attr:clearTop:2130771987
+ attr:customThemeStyle:2130771989
+ attr:environment:2130771990
+ attr:fragmentMode:2130772004
+ attr:fragmentStyle:2130772005
+ attr:imageAspectRatio:2130772006
+ attr:imageAspectRatioAdjust:2130772007
+ attr:primaryActivityName:2130772023
+ attr:queryPatterns:2130772024
+ attr:secondaryActivityAction:2130772026
+ attr:secondaryActivityName:2130772027
+ attr:shortcutMatchRequired:2130772028
+ attr:windowTransitionStyle:2130772044
+ color:androidx_core_ripple_material_light:2130837504
+ color:androidx_core_secondary_text_default_material_light:2130837505
+ color:notification_action_color_filter:2130837517
+ color:notification_icon_bg_color:2130837518
+ color:wallet_bright_foreground_disabled_holo_light:2130837519
+ color:wallet_bright_foreground_holo_dark:2130837520
+ color:wallet_bright_foreground_holo_light:2130837521
+ color:wallet_dim_foreground_disabled_holo_dark:2130837522
+ color:wallet_dim_foreground_holo_dark:2130837523
+ color:wallet_highlighted_text_holo_dark:2130837524
+ color:wallet_highlighted_text_holo_light:2130837525
+ color:wallet_hint_foreground_holo_dark:2130837526
+ color:wallet_hint_foreground_holo_light:2130837527
+ color:wallet_holo_blue_light:2130837528
+ color:wallet_link_text_light:2130837529
+ color:wallet_primary_text_holo_light:2130837530
+ color:wallet_secondary_text_holo_dark:2130837531
+ dimen:notification_action_icon_size:2130903047
+ dimen:notification_action_text_size:2130903048
+ dimen:notification_big_circle_margin:2130903049
+ dimen:notification_content_margin_start:2130903050
+ dimen:notification_large_icon_height:2130903051
+ dimen:notification_large_icon_width:2130903052
+ dimen:notification_main_column_padding_top:2130903053
+ dimen:notification_media_narrow_margin:2130903054
+ dimen:notification_right_icon_size:2130903055
+ dimen:notification_right_side_padding_top:2130903056
+ dimen:notification_small_icon_background_padding:2130903057
+ dimen:notification_small_icon_size_as_large:2130903058
+ dimen:notification_subtext_size:2130903059
+ dimen:notification_top_pad:2130903060
+ dimen:notification_top_pad_large_text:2130903061
+ drawable:common_full_open_on_phone:2130968576
+ drawable:notification_action_background:2130968598
+ drawable:notification_bg:2130968599
+ drawable:notification_bg_low:2130968600
+ drawable:notification_bg_low_normal:2130968601
+ drawable:notification_bg_low_pressed:2130968602
+ drawable:notification_bg_normal:2130968603
+ drawable:notification_bg_normal_pressed:2130968604
+ drawable:notification_icon_background:2130968605
+ drawable:notification_template_icon_bg:2130968606
+ drawable:notification_template_icon_low_bg:2130968607
+ drawable:notification_tile_bg:2130968608
+ id:accessibility_action_clickable_span:2131034112
+ id:accessibility_custom_action_0:2131034113
+ id:accessibility_custom_action_1:2131034114
+ id:accessibility_custom_action_10:2131034115
+ id:accessibility_custom_action_11:2131034116
+ id:accessibility_custom_action_12:2131034117
+ id:accessibility_custom_action_13:2131034118
+ id:accessibility_custom_action_14:2131034119
+ id:accessibility_custom_action_15:2131034120
+ id:accessibility_custom_action_16:2131034121
+ id:accessibility_custom_action_17:2131034122
+ id:accessibility_custom_action_18:2131034123
+ id:accessibility_custom_action_19:2131034124
+ id:accessibility_custom_action_2:2131034125
+ id:accessibility_custom_action_20:2131034126
+ id:accessibility_custom_action_21:2131034127
+ id:accessibility_custom_action_22:2131034128
+ id:accessibility_custom_action_23:2131034129
+ id:accessibility_custom_action_24:2131034130
+ id:accessibility_custom_action_25:2131034131
+ id:accessibility_custom_action_26:2131034132
+ id:accessibility_custom_action_27:2131034133
+ id:accessibility_custom_action_28:2131034134
+ id:accessibility_custom_action_29:2131034135
+ id:accessibility_custom_action_3:2131034136
+ id:accessibility_custom_action_30:2131034137
+ id:accessibility_custom_action_31:2131034138
+ id:accessibility_custom_action_4:2131034139
+ id:accessibility_custom_action_5:2131034140
+ id:accessibility_custom_action_6:2131034141
+ id:accessibility_custom_action_7:2131034142
+ id:accessibility_custom_action_8:2131034143
+ id:accessibility_custom_action_9:2131034144
+ id:action_container:2131034145
+ id:action_divider:2131034146
+ id:action_image:2131034147
+ id:action_text:2131034148
+ id:actions:2131034149
+ id:android_pay:2131034152
+ id:android_pay_dark:2131034153
+ id:android_pay_light:2131034154
+ id:android_pay_light_with_border:2131034155
+ id:androidx_window_activity_scope:2131034156
+ id:classic:2131034166
+ id:dark:2131034167
+ id:hybrid:2131034179
+ id:icon:2131034180
+ id:icon_group:2131034181
+ id:icon_only:2131034182
+ id:info:2131034183
+ id:light:2131034185
+ id:line1:2131034186
+ id:line3:2131034187
+ id:locale:2131034188
+ id:none:2131034194
+ id:notification_background:2131034196
+ id:notification_main_column:2131034197
+ id:notification_main_column_container:2131034198
+ id:production:2131034199
+ id:tag_accessibility_pane_title:2131034212
+ id:tag_transition_group:2131034218
+ id:tag_unhandled_key_event_manager:2131034219
+ id:tag_unhandled_key_listeners:2131034220
+ id:test:2131034223
+ id:text:2131034224
+ id:text2:2131034225
+ id:title:2131034227
+ integer:google_play_services_version:2131099648
+ integer:status_bar_notification_info_maxnum:2131099649
+ layout:custom_dialog:2131165184
+ layout:notification_action:2131165185
+ layout:notification_action_tombstone:2131165186
+ layout:notification_template_custom_big:2131165187
+ layout:notification_template_icon_group:2131165188
+ layout:notification_template_part_chronometer:2131165189
+ layout:notification_template_part_time:2131165190
+ layout:wallet_test_layout:2131165191
+ mipmap:ic_launcher:2131230720
+ string:common_google_play_services_enable_button:2131296256
+ string:common_google_play_services_enable_text:2131296257
+ string:common_google_play_services_enable_title:2131296258
+ string:common_google_play_services_install_button:2131296259
+ string:common_google_play_services_install_text:2131296260
+ string:common_google_play_services_install_title:2131296261
+ string:common_google_play_services_notification_channel_name:2131296262
+ string:common_google_play_services_notification_ticker:2131296263
+ string:common_google_play_services_unknown_issue:2131296264
+ string:common_google_play_services_unsupported_text:2131296265
+ string:common_google_play_services_update_button:2131296266
+ string:common_google_play_services_update_text:2131296267
+ string:common_google_play_services_update_title:2131296268
+ string:common_google_play_services_updating_text:2131296269
+ string:common_google_play_services_wear_update_text:2131296270
+ string:common_open_on_phone:2131296271
+ string:status_bar_notification_info_overflow:2131296274
+ string:wallet_buy_button_place_holder:2131296275
+ style:LaunchTheme:2131361792
+ style:NormalTheme:2131361793
+Skipped unused resource res/color/common_google_signin_btn_text_dark.xml: 1105 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/common_google_signin_btn_text_light.xml: 1113 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/color/common_google_signin_btn_tint.xml: 409 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_icon_dark.xml: 844 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_icon_dark_focused.xml: 1017 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_icon_dark_normal.xml: 567 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_icon_disabled.xml: 1261 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_icon_light.xml: 848 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_icon_light_focused.xml: 1019 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_icon_light_normal.xml: 569 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_text_dark.xml: 844 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_text_dark_focused.xml: 1017 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_text_dark_normal.xml: 659 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_text_disabled.xml: 1355 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_text_light.xml: 848 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_text_light_focused.xml: 1019 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/common_google_signin_btn_text_light_normal.xml: 661 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 610 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 500 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 615 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 465 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/googleg_disabled_color_18.png: 281 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-mdpi-v4/googleg_standard_color_18.png: 562 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 897 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 683 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 960 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 694 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/googleg_disabled_color_18.png: 410 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-hdpi-v4/googleg_standard_color_18.png: 808 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 1032 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 776 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 1086 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 808 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/googleg_disabled_color_18.png: 516 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/googleg_standard_color_18.png: 982 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png: 1510 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png: 1138 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png: 1638 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png: 1255 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/googleg_disabled_color_18.png: 727 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/googleg_standard_color_18.png: 1615 bytes (replaced with small dummy file of size 67 bytes)

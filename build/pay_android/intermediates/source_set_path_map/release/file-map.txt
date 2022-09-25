@@ -1,0 +1,16 @@
+io.flutter.plugins.pay_android-jetified-window-java-1.0.0-beta04-0 C:\Users\germi\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.pay_android-jetified-play-services-base-17.0.0-1 C:\Users\germi\.gradle\caches\transforms-3\2859c87699c9f3d1a56cc4c22cfa28d8\transformed\jetified-play-services-base-17.0.0\res
+io.flutter.plugins.pay_android-core-1.6.0-2 C:\Users\germi\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
+io.flutter.plugins.pay_android-jetified-play-services-maps-17.0.0-3 C:\Users\germi\.gradle\caches\transforms-3\65c3d79f4b70360c3f41c220ada1d590\transformed\jetified-play-services-maps-17.0.0\res
+io.flutter.plugins.pay_android-jetified-annotation-experimental-1.1.0-4 C:\Users\germi\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.pay_android-jetified-play-services-wallet-18.1.2-5 C:\Users\germi\.gradle\caches\transforms-3\ba16f370c576df4e7d4d9d6bc773cc5c\transformed\jetified-play-services-wallet-18.1.2\res
+io.flutter.plugins.pay_android-jetified-window-1.0.0-beta04-6 C:\Users\germi\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.pay_android-jetified-play-services-basement-17.0.0-7 C:\Users\germi\.gradle\caches\transforms-3\f7cba3abe37e36382f1f2949e5f38fbe\transformed\jetified-play-services-basement-17.0.0\res
+io.flutter.plugins.pay_android-main-8 C:\Users\germi\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\pay_android-1.0.8\android\src\main\res
+io.flutter.plugins.pay_android-release-9 C:\Users\germi\AppData\Local\Pub\Cache\hosted\pub.dartlang.org\pay_android-1.0.8\android\src\release\res
+io.flutter.plugins.pay_android-pngs-10 C:\Users\germi\OneDrive\Escritorio\appStable\Deploy\v1douvery\build\pay_android\generated\res\pngs\release
+io.flutter.plugins.pay_android-resValues-11 C:\Users\germi\OneDrive\Escritorio\appStable\Deploy\v1douvery\build\pay_android\generated\res\resValues\release
+io.flutter.plugins.pay_android-rs-12 C:\Users\germi\OneDrive\Escritorio\appStable\Deploy\v1douvery\build\pay_android\generated\res\rs\release
+io.flutter.plugins.pay_android-mergeReleaseResources-13 C:\Users\germi\OneDrive\Escritorio\appStable\Deploy\v1douvery\build\pay_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.pay_android-mergeReleaseResources-14 C:\Users\germi\OneDrive\Escritorio\appStable\Deploy\v1douvery\build\pay_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.pay_android-merged_res-15 C:\Users\germi\OneDrive\Escritorio\appStable\Deploy\v1douvery\build\pay_android\intermediates\merged_res\release

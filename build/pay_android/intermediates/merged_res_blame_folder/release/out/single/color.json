@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "io.flutter.plugins.pay_android-merged_res-14:/color/wallet_secondary_text_holo_dark.xml",
+        "source": "io.flutter.plugins.pay_android-jetified-play-services-wallet-18.1.2-5:/color/wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "io.flutter.plugins.pay_android-merged_res-14:/color/common_google_signin_btn_text_dark.xml",
+        "source": "io.flutter.plugins.pay_android-jetified-play-services-base-17.0.0-1:/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "io.flutter.plugins.pay_android-merged_res-14:/color/common_google_signin_btn_tint.xml",
+        "source": "io.flutter.plugins.pay_android-jetified-play-services-base-17.0.0-1:/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "io.flutter.plugins.pay_android-merged_res-14:/color/wallet_primary_text_holo_light.xml",
+        "source": "io.flutter.plugins.pay_android-jetified-play-services-wallet-18.1.2-5:/color/wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "io.flutter.plugins.pay_android-merged_res-14:/color/common_google_signin_btn_text_light.xml",
+        "source": "io.flutter.plugins.pay_android-jetified-play-services-base-17.0.0-1:/color/common_google_signin_btn_text_light.xml"
+    }
+]
