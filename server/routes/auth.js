@@ -32,6 +32,8 @@ authRouter.post("/api/signup", async (req, res) => {
   }
 });
 
+
+
 // * SIGN IN
 
 authRouter.post("/api/signin", async (req, res) => {

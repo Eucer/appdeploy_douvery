@@ -30,8 +30,8 @@ class CartServices {
         response: res,
         context: context,
         onSuccess: () {
-          User user =
-              userProvider.user.copyWith(cart: jsonDecode(res.body)['cart']);
+          User user = userProvider.user
+              .copyWith(cart: jsonDecode(res.body)['cart'], images: null);
           userProvider.setUserFromModel(user);
         },
       );
@@ -59,8 +59,8 @@ class CartServices {
         response: res,
         context: context,
         onSuccess: () {
-          User user =
-              userProvider.user.copyWith(cart: jsonDecode(res.body)['cart']);
+          User user = userProvider.user
+              .copyWith(cart: jsonDecode(res.body)['cart'], images: null);
           userProvider.setUserFromModel(user);
         },
       );

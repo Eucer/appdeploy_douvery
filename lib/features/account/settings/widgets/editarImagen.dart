@@ -29,16 +29,14 @@ class Subir_And_EditarImagenAccount extends StatefulWidget {
 
 class _Subir_And_EditarImagenAccountState
     extends State<Subir_And_EditarImagenAccount> {
-  final AccountServices adminServices = AccountServices();
-
-  String category = 'Mobiles';
+  final AccountServices accountServices = AccountServices();
 
   List<File> images = [];
   final _addProductFormKey = GlobalKey<FormState>();
 
   void sellProduct() {
-    if (_addProductFormKey.currentState!.validate() && images.isNotEmpty) {
-      adminServices.enviarImagenAccount(
+    if (images.isNotEmpty) {
+      accountServices.enviarImagenAccount(
         context: context,
         name: widget.user.name,
         images: images,
@@ -46,7 +44,7 @@ class _Subir_And_EditarImagenAccountState
     }
   }
 
-  void selectImages() async {
+  void selectImagess() async {
     var res = await pickImages();
     setState(() {
       images = res;
@@ -141,7 +139,7 @@ class _Subir_And_EditarImagenAccountState
                           ),
                         )
                       : GestureDetector(
-                          onTap: selectImages,
+                          onTap: selectImagess,
                           child: DottedBorder(
                             color: currentTheme.isDarkTheme()
                                 ? GlobalVariables.borderColorsDarklv20

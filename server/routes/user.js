@@ -5,6 +5,23 @@ const { Product} =require("../modelos/product");
 const User = require("../modelos/user");
 const Order = require("../modelos/order");
 
+
+
+
+// save user address
+userRouter.post("/user/add-images", auth, async (req, res) => {
+  try {
+    const { imagen } = req.body;
+    let user = await User.findById(req.user);
+    user.images = imagen;
+    user = await user.save();
+    res.json(user);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+
 userRouter.post("/api/add-to-cart", auth, async (req, res) => {
   try {
     const { id } = req.body;
@@ -97,22 +114,6 @@ userRouter.put("/:id", auth, async (req,res) => {
 });
 
 
-
-
-//* Add Images
-userRouter.post("/user/add-images", async (req, res) => {
-  try {
-    const {images} = req.body;
-    let user = new User({
-      images,
-
-    });
-    user = await user.save();
-    res.json(user);
-  } catch (e) {
-    res.status(500).json({ error: e.message });
-  }
-});
 
 
 

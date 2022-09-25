@@ -3,33 +3,18 @@ import 'dart:io';
 
 import 'package:cloudinary_public/cloudinary_public.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:provider/provider.dart';
-import 'package:v1douvery/constantes/error_handling.dart';
-import 'package:v1douvery/constantes/global_variables.dart';
-import 'package:v1douvery/constantes/utils.dart';
-import 'package:v1douvery/features/admin/models/sales.dart';
-import 'package:v1douvery/models/order.dart';
-import 'package:v1douvery/models/product.dart';
-import 'package:http/http.dart' as http;
-import 'package:v1douvery/models/user.dart';
-import 'package:v1douvery/provider/user_provider.dart';
-
-import 'package:cloudinary_public/cloudinary_public.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:v1douvery/constantes/error_handling.dart';
 import 'package:v1douvery/constantes/global_variables.dart';
 import 'package:v1douvery/constantes/utils.dart';
-import 'package:v1douvery/features/auth/screens/auth_screen.dart';
+import 'package:v1douvery/features/auth/responsive/authResponsivelayout.dart';
 import 'package:v1douvery/models/order.dart';
 import 'package:v1douvery/models/user.dart';
-import 'package:v1douvery/models/userImages.dart';
 import 'package:v1douvery/provider/user_provider.dart';
-import 'package:http/http.dart' as http;
 
-import '../../auth/responsive/authResponsivelayout.dart';
+import 'package:http/http.dart' as http;
 
 class AccountServices {
   Future<List<Order>> fetchMyOrders({
@@ -91,43 +76,36 @@ class AccountServices {
   }) async {
     final userProvider = Provider.of<UserProvider>(context, listen: false);
 
-    try {
-      final cloudinary = CloudinaryPublic('douvery', 'bfkwgizb');
-      List<String> imageUrls = [];
+    final cloudinary = CloudinaryPublic('douvery', 'bfkwgizb');
+    List<String> imageUrls = [];
 
-      for (int i = 0; i < images.length; i++) {
-        CloudinaryResponse res = await cloudinary.uploadFile(
-          CloudinaryFile.fromFile(images[i].path, folder: name),
-        );
-        imageUrls.add(res.secureUrl);
-      }
-
-      User user = User(
-        images: imageUrls,
-        address: '',
-        email: '',
-        cart: [],
-        id: '',
-        password: '',
-        name: '',
-        token: '',
-        type: '',
+    for (int i = 0; i < images.length; i++) {
+      CloudinaryResponse res = await cloudinary.uploadFile(
+        CloudinaryFile.fromFile(images[i].path, folder: name),
       );
-
+      imageUrls.add(res.secureUrl);
+    }
+    try {
       http.Response res = await http.post(
         Uri.parse('$uri/user/add-images'),
         headers: {
           'Content-Type': 'application/json; charset=UTF-8',
           'x-auth-token': userProvider.user.token,
         },
-        body: user.toJson(),
+        body: jsonEncode({
+          'imagen': imageUrls.toString(),
+        }),
       );
 
       httpErrorHandle(
         response: res,
         context: context,
         onSuccess: () {
-          Navigator.pop(context, true);
+          User user = userProvider.user.copyWith(
+            images: jsonDecode(res.body)['images'],
+          );
+
+          userProvider.setUserFromModel(user);
         },
       );
     } catch (e) {

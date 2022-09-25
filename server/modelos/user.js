@@ -32,6 +32,10 @@ const userSchema = mongoose.Schema({
     type: String,
     default: "user",
   },
+  images: {
+    type: String,
+    default: "https://res.cloudinary.com/douvery/image/upload/v1664138549/germys/ay8lhn3zt6jtgvyxk5hk.jpg",
+  },
    cart: [
     {
       product : productSchema,

@@ -35,6 +35,7 @@ class AddressServices {
         onSuccess: () {
           User user = userProvider.user.copyWith(
             address: jsonDecode(res.body)['address'],
+            images: null,
           );
 
           userProvider.setUserFromModel(user);
@@ -72,6 +73,7 @@ class AddressServices {
           showSnackBar(context, 'Your order has been placed!');
           User user = userProvider.user.copyWith(
             cart: [],
+            images: null,
           );
           userProvider.setUserFromModel(user);
         },
