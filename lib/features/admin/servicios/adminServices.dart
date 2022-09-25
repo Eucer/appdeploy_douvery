@@ -263,13 +263,4 @@ class AdminServices {
     }
     return user;
   }
-
-  void enviarImagenAccount(
-      {required BuildContext context,
-      required String name,
-      required String description,
-      required double price,
-      required double quantity,
-      required String category,
-      required List<File> images}) {}
 }

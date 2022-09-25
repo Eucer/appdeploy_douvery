@@ -1,20 +1,5 @@
 import 'dart:convert';
-import 'dart:io';
 
-import 'package:cloudinary_public/cloudinary_public.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:provider/provider.dart';
-import 'package:v1douvery/constantes/error_handling.dart';
-import 'package:v1douvery/constantes/global_variables.dart';
-import 'package:v1douvery/constantes/utils.dart';
-import 'package:v1douvery/features/admin/models/sales.dart';
-import 'package:v1douvery/models/order.dart';
-import 'package:v1douvery/models/product.dart';
-import 'package:http/http.dart' as http;
-import 'package:v1douvery/models/user.dart';
-import 'package:v1douvery/provider/user_provider.dart';
-
-import 'package:cloudinary_public/cloudinary_public.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -24,8 +9,6 @@ import 'package:v1douvery/constantes/global_variables.dart';
 import 'package:v1douvery/constantes/utils.dart';
 import 'package:v1douvery/features/auth/screens/auth_screen.dart';
 import 'package:v1douvery/models/order.dart';
-import 'package:v1douvery/models/user.dart';
-import 'package:v1douvery/models/userImages.dart';
 import 'package:v1douvery/provider/user_provider.dart';
 import 'package:http/http.dart' as http;
 
@@ -78,57 +61,6 @@ class AccountServices {
             return WebFullResponsiveLayaout();
           },
         ),
-      );
-    } catch (e) {
-      showSnackBar(context, e.toString());
-    }
-  }
-
-  void enviarImagenAccount({
-    required BuildContext context,
-    required String name,
-    required List<File> images,
-  }) async {
-    final userProvider = Provider.of<UserProvider>(context, listen: false);
-
-    try {
-      final cloudinary = CloudinaryPublic('douvery', 'bfkwgizb');
-      List<String> imageUrls = [];
-
-      for (int i = 0; i < images.length; i++) {
-        CloudinaryResponse res = await cloudinary.uploadFile(
-          CloudinaryFile.fromFile(images[i].path, folder: name),
-        );
-        imageUrls.add(res.secureUrl);
-      }
-
-      User user = User(
-        images: imageUrls,
-        address: '',
-        email: '',
-        cart: [],
-        id: '',
-        password: '',
-        name: '',
-        token: '',
-        type: '',
-      );
-
-      http.Response res = await http.post(
-        Uri.parse('$uri/user/add-images'),
-        headers: {
-          'Content-Type': 'application/json; charset=UTF-8',
-          'x-auth-token': userProvider.user.token,
-        },
-        body: user.toJson(),
-      );
-
-      httpErrorHandle(
-        response: res,
-        context: context,
-        onSuccess: () {
-          Navigator.pop(context, true);
-        },
       );
     } catch (e) {
       showSnackBar(context, e.toString());

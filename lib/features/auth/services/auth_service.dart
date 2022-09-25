@@ -33,7 +33,6 @@ class AuthService {
         type: '',
         token: '',
         cart: [],
-        images: [],
       );
 
       http.Response res = await http.post(
