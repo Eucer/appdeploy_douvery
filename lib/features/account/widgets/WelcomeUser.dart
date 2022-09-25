@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
+import 'package:flutter_native_splash/cli_commands.dart';
 import 'package:provider/provider.dart';
 import 'package:v1douvery/common/widgets/IconButton.dart';
 import 'package:v1douvery/constantes/global_variables.dart';
 import 'package:v1douvery/features/account/services/accountServices.dart';
+import 'package:v1douvery/features/account/settings/screens/settingsHomeAccount.dart';
 import 'package:v1douvery/features/search/vista/search_screen.dart';
 import 'package:v1douvery/provider/user_provider.dart';
 
@@ -54,7 +56,7 @@ class WelcomeUser extends StatelessWidget {
                   Container(
                     width: 100,
                     child: Text(
-                      user.name,
+                      user.name.capitalize(),
                       style: TextStyle(
                         fontSize: 22,
                         fontWeight: FontWeight.bold,
@@ -76,7 +78,7 @@ class WelcomeUser extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => SearchPage(),
+                      builder: (context) => SettingsAccounts(),
                     ),
                   );
                 },
