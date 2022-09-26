@@ -117,22 +117,17 @@ class _SettingsAccountsState extends State<SettingsAccounts> {
                                 padding: const EdgeInsets.all(8.0),
                                 child: Row(
                                   children: [
-                                    Container(
-                                      width: 60,
-                                      height: 60,
-                                      decoration: BoxDecoration(
-                                        shape: BoxShape.circle,
-                                        image: DecorationImage(
-                                          image: NetworkImage(user.images[0]),
-                                          // picked file
-                                          fit: BoxFit.cover,
-                                        ),
-                                        color: currentTheme.isDarkTheme()
-                                            ? GlobalVariables
-                                                .darkbackgroundColor
-                                            : GlobalVariables.backgroundColor,
-                                      ),
-                                    ),
+                                    user.images == ''
+                                        ? CircleAvatar(
+                                            radius: 30,
+                                            backgroundImage: NetworkImage(
+                                                'https://res.cloudinary.com/douvery/image/upload/v1664075651/categoryAccount/rw4wogby45zbh1eaglbp.png'),
+                                          )
+                                        : CircleAvatar(
+                                            radius: 30,
+                                            backgroundImage:
+                                                NetworkImage(user.images[0]),
+                                          ),
                                     Container(
                                       margin: EdgeInsets.only(left: 20),
                                       child: Column(

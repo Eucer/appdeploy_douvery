@@ -187,19 +187,7 @@ class _Subir_And_EditarImagenAccountState
                   ),
                   Padding(
                     padding: const EdgeInsets.all(50.0),
-                    child: CustomnButton(
-                      text: 'Sell',
-                      onTap: () {
-                        sellProduct;
-                        ElegantNotification.success(
-                          title: Text("Hecho!!"),
-                          description: Text(
-                            'Tu foto de perfil se a actualizado correctamente!',
-                          ),
-                        ).show(context);
-                        ;
-                      },
-                    ),
+                    child: CustomnButton(text: 'Sell', onTap: sellProduct),
                   )
                 ],
               ),

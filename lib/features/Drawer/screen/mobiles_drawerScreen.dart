@@ -181,9 +181,9 @@ class headerWidget extends StatelessWidget {
     final user = Provider.of<UserProvider>(context).user;
     return Row(
       children: [
-        const CircleAvatar(
-          radius: 40,
-          backgroundImage: NetworkImage(url),
+        CircleAvatar(
+          radius: 30,
+          backgroundImage: NetworkImage(user.images[0]),
         ),
         const SizedBox(
           width: 20,
@@ -228,9 +228,9 @@ class HeaderWidgetAdmin extends StatelessWidget {
     final user = Provider.of<UserProvider>(context).user;
     return Row(
       children: [
-        const CircleAvatar(
-          radius: 40,
-          backgroundImage: NetworkImage(url),
+        CircleAvatar(
+          radius: 30,
+          backgroundImage: NetworkImage(user.images[0]),
         ),
         const SizedBox(
           width: 20,

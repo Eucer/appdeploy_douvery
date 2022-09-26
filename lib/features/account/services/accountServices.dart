@@ -100,7 +100,9 @@ class AccountServices {
       httpErrorHandle(
         response: res,
         context: context,
-        onSuccess: () {},
+        onSuccess: () {
+          showSnackBar(context, 'Imagen Agregada!'.toString());
+        },
       );
     } catch (e) {
       showSnackBar(context, e.toString());

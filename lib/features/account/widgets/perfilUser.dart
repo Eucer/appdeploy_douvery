@@ -41,25 +41,12 @@ class PerfilUsuario extends StatelessWidget {
                       padding: const EdgeInsets.all(8.0),
                       child: Row(
                         children: [
-                          Container(
-                            width: 60,
-                            height: 60,
-                            decoration: BoxDecoration(
-                              border: Border.all(
-                                  color: currentTheme.isDarkTheme()
-                                      ? GlobalVariables.borderColorsDarklv10
-                                      : GlobalVariables.borderColorsWhithelv10,
-                                  width: 1),
-                              shape: BoxShape.circle,
-                              image: DecorationImage(
-                                image: NetworkImage(user.images[0]),
-                                // picked file
-                                fit: BoxFit.contain,
-                              ),
-                              color: currentTheme.isDarkTheme()
-                                  ? GlobalVariables.darkOFbackgroundColor
-                                  : GlobalVariables.backgroundColor,
-                            ),
+                          CircleAvatar(
+                            radius: 30,
+                            backgroundImage: NetworkImage(user.images[0]),
+                          ),
+                          const SizedBox(
+                            width: 20,
                           ),
                           Container(
                             margin: EdgeInsets.only(left: 20),
