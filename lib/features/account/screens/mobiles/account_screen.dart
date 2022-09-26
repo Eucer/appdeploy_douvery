@@ -44,8 +44,8 @@ class AccountScreen extends StatelessWidget {
 
       //SelectBody
       body: Provider.of<UserProvider>(context).user.token.isNotEmpty
-          ? Session()
-          : Nosession(),
+          ? SelectionArea(child: Session())
+          : SelectionArea(child: Nosession()),
     );
   }
 }

@@ -142,508 +142,516 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
       ),
 
       //SelectBody
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            Product == null
-                ? const Loader()
-                : Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(top: 1.0, bottom: 1.0),
-                        child: Container(
-                          height: 33,
-                          width: MediaQuery.of(context).size.width,
-                          color: currentTheme.isDarkTheme()
-                              ? GlobalVariables.darkbackgroundColor
-                              : GlobalVariables.backgroundColor,
-                          child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: [
-                                Row(
-                                  children: [
-                                    Container(
-                                      child: Column(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        children: [
-                                          if (avgRating >= 5) ...[
-                                            Flash(
-                                                child:
-                                                    Stars(rating: avgRating)),
-                                          ] else ...[
-                                            Stars(rating: avgRating),
+      body: SelectionArea(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Product == null
+                  ? const Loader()
+                  : Column(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.only(top: 1.0, bottom: 1.0),
+                          child: Container(
+                            height: 33,
+                            width: MediaQuery.of(context).size.width,
+                            color: currentTheme.isDarkTheme()
+                                ? GlobalVariables.darkbackgroundColor
+                                : GlobalVariables.backgroundColor,
+                            child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceAround,
+                                children: [
+                                  Row(
+                                    children: [
+                                      Container(
+                                        child: Column(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
+                                          children: [
+                                            if (avgRating >= 5) ...[
+                                              Flash(
+                                                  child:
+                                                      Stars(rating: avgRating)),
+                                            ] else ...[
+                                              Stars(rating: avgRating),
+                                            ],
                                           ],
-                                        ],
+                                        ),
                                       ),
-                                    ),
 
-                                    Container(
-                                      width: 50,
-                                      child: Text(
-                                        '(' +
-                                            avgRating.toStringAsPrecision(2) +
-                                            ') ' +
-                                            widget.product.rating!.length
-                                                .toString(),
+                                      Container(
+                                        width: 50,
+                                        child: Text(
+                                          '(' +
+                                              avgRating.toStringAsPrecision(2) +
+                                              ') ' +
+                                              widget.product.rating!.length
+                                                  .toString(),
+                                          style: TextStyle(
+                                              color: Colors.grey, fontSize: 13),
+                                          textAlign: TextAlign.start,
+                                          maxLines: 1,
+                                          overflow: TextOverflow.ellipsis,
+                                        ),
+                                      ),
+
+                                      Text(
+                                        'Precio: ',
                                         style: TextStyle(
-                                            color: Colors.grey, fontSize: 13),
-                                        textAlign: TextAlign.start,
-                                        maxLines: 1,
-                                        overflow: TextOverflow.ellipsis,
+                                            color: currentTheme.isDarkTheme()
+                                                ? GlobalVariables
+                                                    .text1darkbackgroundColor
+                                                : Colors.black54,
+                                            fontSize: 15),
                                       ),
-                                    ),
 
-                                    Text(
-                                      'Precio: ',
-                                      style: TextStyle(
+                                      Text(
+                                        '\$${widget.product.price}',
+                                        style: TextStyle(
                                           color: currentTheme.isDarkTheme()
                                               ? GlobalVariables
-                                                  .text1darkbackgroundColor
-                                              : Colors.black54,
-                                          fontSize: 15),
-                                    ),
-
-                                    Text(
-                                      '\$${widget.product.price}',
-                                      style: TextStyle(
-                                        color: currentTheme.isDarkTheme()
-                                            ? GlobalVariables
-                                                .text20darkbackgroundColor
-                                            : Color(0xff1C2833),
-                                        fontWeight: FontWeight.w500,
-                                        letterSpacing: 0.4,
-                                        fontSize: 15.0,
+                                                  .text20darkbackgroundColor
+                                              : Color(0xff1C2833),
+                                          fontWeight: FontWeight.w500,
+                                          letterSpacing: 0.4,
+                                          fontSize: 15.0,
+                                        ),
                                       ),
-                                    ),
-                                    SizedBox(width: 20),
-                                    //
+                                      SizedBox(width: 20),
+                                      //
 
-                                    Text(
-                                      'Envio Gratis',
-                                      style: TextStyle(
-                                          color:
-                                              Color.fromARGB(255, 4, 161, 17),
-                                          fontSize: 15),
-                                    ),
-                                  ],
+                                      Text(
+                                        'Envio Gratis',
+                                        style: TextStyle(
+                                            color:
+                                                Color.fromARGB(255, 4, 161, 17),
+                                            fontSize: 15),
+                                      ),
+                                    ],
+                                  ),
+                                ]),
+                          ),
+                        ),
+                      ],
+                    ),
+              Column(
+                children: [
+                  Stack(
+                    children: [
+                      Container(
+                        color: currentTheme.isDarkTheme()
+                            ? GlobalVariables.darkbackgroundColor
+                            : GlobalVariables.backgroundColor,
+                        child: CarouselSlider(
+                          items: widget.product.images.map(
+                            (i) {
+                              return Builder(
+                                builder: (BuildContext context) => Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: CachedNetworkImage(
+                                    imageUrl: i,
+                                    height: 1500,
+                                    fit: BoxFit.contain,
+                                    width: double.infinity,
+                                  ),
                                 ),
-                              ]),
+                              );
+                            },
+                          ).toList(),
+                          options: CarouselOptions(
+                            viewportFraction: 1,
+                            height: 400,
+                            aspectRatio: 16 / 9,
+                            initialPage: 0,
+                            enableInfiniteScroll: false,
+                            reverse: false,
+                            autoPlayCurve: Curves.fastOutSlowIn,
+                            enlargeCenterPage: true,
+                            scrollDirection: Axis.horizontal,
+                          ),
                         ),
                       ),
                     ],
                   ),
-            Column(
-              children: [
-                Stack(
-                  children: [
-                    Container(
-                      color: currentTheme.isDarkTheme()
-                          ? GlobalVariables.darkbackgroundColor
-                          : GlobalVariables.backgroundColor,
-                      child: CarouselSlider(
-                        items: widget.product.images.map(
-                          (i) {
-                            return Builder(
-                              builder: (BuildContext context) => Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: CachedNetworkImage(
-                                  imageUrl: i,
-                                  height: 1500,
-                                  fit: BoxFit.contain,
-                                  width: double.infinity,
-                                ),
-                              ),
-                            );
-                          },
-                        ).toList(),
-                        options: CarouselOptions(
-                          viewportFraction: 1,
-                          height: 400,
-                          aspectRatio: 16 / 9,
-                          initialPage: 0,
-                          enableInfiniteScroll: false,
-                          reverse: false,
-                          autoPlayCurve: Curves.fastOutSlowIn,
-                          enlargeCenterPage: true,
-                          scrollDirection: Axis.horizontal,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                Container(
-                  color: currentTheme.isDarkTheme()
-                      ? GlobalVariables.darkbackgroundColor
-                      : GlobalVariables.backgroundColor,
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: widget.product.images.asMap().entries.map(
-                      (entry) {
-                        return GestureDetector(
-                          onTap: () => _controller.animateToPage(entry.key),
-                          child: Container(
-                            width: 9.0,
-                            height: 9.0,
-                            margin: EdgeInsets.symmetric(
-                                vertical: 8.0, horizontal: 4.0),
-                            decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                                color: (Theme.of(context).brightness ==
-                                            Brightness.dark
-                                        ? Color.fromARGB(255, 68, 62, 62)
-                                        : Colors.black)
-                                    .withOpacity(
-                                        _current == entry.key ? 0.5 : 0.1)),
-                          ),
-                        );
-                      },
-                    ).toList(),
-                  ),
-                ),
-              ],
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 3.0, top: 5.0, right: 3.0),
-              child: Column(
-                children: [
                   Container(
-                    width: MediaQuery.of(context).size.width,
-                    color: currentTheme.isDarkTheme()
-                        ? GlobalVariables.darkbackgroundColor
-                        : GlobalVariables.backgroundColor,
-                    child: Column(
-                      children: [
-                        GestureDetector(
-                          onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => BrandsScreen(
-                                brands: widget.product.marca,
-                              ),
-                              settings: RouteSettings(
-                                arguments: widget.product.marca,
-                              ),
-                            ),
-                          ),
-                          child: Container(
-                            height: 30,
-                            alignment: Alignment.centerLeft,
-                            margin: EdgeInsets.only(
-                              top: 0,
-                              left: 10,
-                            ),
-                            child: RichText(
-                              text: TextSpan(
-                                children: [
-                                  WidgetSpan(
-                                    child: Icon(
-                                      Icons.house_outlined,
-                                      size: 16,
-                                      color: currentTheme.isDarkTheme()
-                                          ? Color.fromARGB(255, 5, 111, 209)
-                                          : Color(0xff10375C),
-                                    ),
-                                  ),
-                                  TextSpan(
-                                    text: widget.product.marca,
-                                    style: TextStyle(
-                                      color: currentTheme.isDarkTheme()
-                                          ? Color.fromARGB(255, 5, 111, 209)
-                                          : Color(0xff10375C),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(
-                              left: 8.0, right: 8, top: 8, bottom: 15),
-                          child: Container(
-                            alignment: Alignment.bottomLeft,
-                            margin: EdgeInsets.only(left: 5),
-                            child: Text(
-                              widget.product.name,
-                              style: GoogleFonts.roboto(
-                                color: currentTheme.isDarkTheme()
-                                    ? GlobalVariables.text1darkbackgroundColor
-                                    : GlobalVariables.text1WhithegroundColor,
-                                fontWeight: FontWeight.w400,
-                                fontSize: 15.0,
-                              ),
-                            ),
-                          ),
-                        ),
-                        const SizedBox(width: 00),
-                      ],
-                    ),
-                  )
-                ],
-              ),
-            ),
-            Column(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.only(top: 1.0, bottom: 1.0),
-                  child: Container(
-                    height: 50,
-                    width: MediaQuery.of(context).size.width,
-                    padding: EdgeInsets.all(0),
                     color: currentTheme.isDarkTheme()
                         ? GlobalVariables.darkbackgroundColor
                         : GlobalVariables.backgroundColor,
                     child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(4.0),
-                            child: Row(
-                              children: [
-                                const SizedBox(width: 10),
-                                Provider.of<UserProvider>(context)
-                                        .user
-                                        .token
-                                        .isNotEmpty
-                                    ? ElevatedButton.icon(
-                                        style: ElevatedButton.styleFrom(
-                                          primary:
-                                              Color(0xff1a49ab), // background
-                                          // foreground
-                                        ),
-                                        onPressed: () {
-                                          addToCart();
-
-                                          _modalIconsCart(context);
-                                        },
-                                        icon: Icon(IconlyLight.buy, size: 16),
-                                        label: Text("Añadir al Carrito"),
-                                      )
-                                    : ButtomAggCartNosessions(),
-                                SizedBox(width: 10),
-                                ElevatedButton.icon(
-                                  style: ElevatedButton.styleFrom(
-                                    primary: Color(0xffed174f), // background
-                                    // foreground
-                                  ),
-                                  onPressed: () => Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => AddressScreen(
-                                        totalAmount:
-                                            widget.product.price.toString(),
-                                        cantid: widget.product.name.toString(),
-                                      ),
-                                    ),
-                                  ),
-                                  icon: Icon(Icons.payments, size: 16),
-                                  label: Text("Pagar"),
-                                ),
-                              ],
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: widget.product.images.asMap().entries.map(
+                        (entry) {
+                          return GestureDetector(
+                            onTap: () => _controller.animateToPage(entry.key),
+                            child: Container(
+                              width: 9.0,
+                              height: 9.0,
+                              margin: EdgeInsets.symmetric(
+                                  vertical: 8.0, horizontal: 4.0),
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: (Theme.of(context).brightness ==
+                                              Brightness.dark
+                                          ? Color.fromARGB(255, 68, 62, 62)
+                                          : Colors.black)
+                                      .withOpacity(
+                                          _current == entry.key ? 0.5 : 0.1)),
                             ),
-                          ),
-                        ]),
+                          );
+                        },
+                      ).toList(),
+                    ),
                   ),
-                ),
-              ],
-            ),
-            Stack(
-              children: [
-                Column(
+                ],
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 3.0, top: 5.0, right: 3.0),
+                child: Column(
                   children: [
                     Container(
-                      decoration: BoxDecoration(
-                        border: Border(
-                          bottom:
-                              BorderSide(width: 1, color: Color(0xfff1f5f9)),
-                        ),
-                        color: currentTheme.isDarkTheme()
-                            ? GlobalVariables.darkbackgroundColor
-                            : GlobalVariables.backgroundColor,
-                      ),
-                      padding: const EdgeInsets.all(8.0),
-                      height: 500,
-                      child: ContainedTabBarView(
-                        tabs: [
-                          Text(
-                            'Descripcion',
-                            style: TextStyle(
-                              color: currentTheme.isDarkTheme()
-                                  ? GlobalVariables.text1darkbackgroundColor
-                                  : Color.fromARGB(206, 0, 0, 0),
+                      width: MediaQuery.of(context).size.width,
+                      color: currentTheme.isDarkTheme()
+                          ? GlobalVariables.darkbackgroundColor
+                          : GlobalVariables.backgroundColor,
+                      child: Column(
+                        children: [
+                          GestureDetector(
+                            onTap: () => Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => BrandsScreen(
+                                  brands: widget.product.marca,
+                                ),
+                                settings: RouteSettings(
+                                  arguments: widget.product.marca,
+                                ),
+                              ),
+                            ),
+                            child: Container(
+                              height: 30,
+                              alignment: Alignment.centerLeft,
+                              margin: EdgeInsets.only(
+                                top: 0,
+                                left: 10,
+                              ),
+                              child: RichText(
+                                text: TextSpan(
+                                  children: [
+                                    WidgetSpan(
+                                      child: Icon(
+                                        Icons.house_outlined,
+                                        size: 16,
+                                        color: currentTheme.isDarkTheme()
+                                            ? Color.fromARGB(255, 5, 111, 209)
+                                            : Color(0xff10375C),
+                                      ),
+                                    ),
+                                    TextSpan(
+                                      text: widget.product.marca,
+                                      style: TextStyle(
+                                        color: currentTheme.isDarkTheme()
+                                            ? Color.fromARGB(255, 5, 111, 209)
+                                            : Color(0xff10375C),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
                             ),
                           ),
-                          Text(
-                            'Servicio',
-                            style: TextStyle(
-                              color: currentTheme.isDarkTheme()
-                                  ? GlobalVariables.text1darkbackgroundColor
-                                  : Color.fromARGB(206, 0, 0, 0),
-                            ),
-                          ),
-                          Text(
-                            'Reseñas',
-                            style: TextStyle(
-                              color: currentTheme.isDarkTheme()
-                                  ? GlobalVariables.text1darkbackgroundColor
-                                  : Color.fromARGB(206, 0, 0, 0),
-                            ),
-                          ),
-                          Text(
-                            'Similar',
-                            style: TextStyle(
-                              color: currentTheme.isDarkTheme()
-                                  ? GlobalVariables.text1darkbackgroundColor
-                                  : Color.fromARGB(206, 0, 0, 0),
-                            ),
-                          ),
-                        ],
-                        views: [
-                          Container(
-                            child: Padding(
-                              padding: const EdgeInsets.all(8.0),
+                          Padding(
+                            padding: const EdgeInsets.only(
+                                left: 8.0, right: 8, top: 8, bottom: 15),
+                            child: Container(
+                              alignment: Alignment.bottomLeft,
+                              margin: EdgeInsets.only(left: 5),
                               child: Text(
-                                widget.product.description,
-                                style: TextStyle(
+                                widget.product.name,
+                                style: GoogleFonts.roboto(
                                   color: currentTheme.isDarkTheme()
                                       ? GlobalVariables.text1darkbackgroundColor
                                       : GlobalVariables.text1WhithegroundColor,
+                                  fontWeight: FontWeight.w400,
+                                  fontSize: 15.0,
                                 ),
                               ),
                             ),
                           ),
-                          Container(child: Text('text')),
-                          Stack(
-                            children: [
-                              Row(
+                          const SizedBox(width: 00),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(top: 1.0, bottom: 1.0),
+                    child: Container(
+                      height: 50,
+                      width: MediaQuery.of(context).size.width,
+                      padding: EdgeInsets.all(0),
+                      color: currentTheme.isDarkTheme()
+                          ? GlobalVariables.darkbackgroundColor
+                          : GlobalVariables.backgroundColor,
+                      child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: Row(
                                 children: [
-                                  Container(
-                                      child: Text(
-                                    'Tu rating :  ',
-                                    style: TextStyle(
-                                        color: currentTheme.isDarkTheme()
-                                            ? GlobalVariables
-                                                .text1darkbackgroundColor
-                                            : GlobalVariables
-                                                .text1WhithegroundColor),
-                                  )),
-                                  Container(
-                                    color: currentTheme.isDarkTheme()
-                                        ? GlobalVariables.darkbackgroundColor
-                                        : GlobalVariables.backgroundColor,
-                                    child: RatingBar.builder(
-                                      initialRating: myRating,
-                                      minRating: 1,
-                                      direction: Axis.horizontal,
-                                      allowHalfRating: true,
-                                      itemCount: 5,
-                                      itemBuilder: (context, _) => Icon(
-                                        Iconsax.star_15,
-                                        color: Color(0xffFF2E4C),
-                                      ),
-                                      onRatingUpdate: (rating) {
-                                        productDetailsServices.rateProduct(
-                                            context: context,
-                                            product: widget.product,
-                                            rating: rating,
-                                            comment: '');
-                                      },
+                                  const SizedBox(width: 10),
+                                  Provider.of<UserProvider>(context)
+                                          .user
+                                          .token
+                                          .isNotEmpty
+                                      ? ElevatedButton.icon(
+                                          style: ElevatedButton.styleFrom(
+                                            primary:
+                                                Color(0xff1a49ab), // background
+                                            // foreground
+                                          ),
+                                          onPressed: () {
+                                            addToCart();
+
+                                            _modalIconsCart(context);
+                                          },
+                                          icon: Icon(IconlyLight.buy, size: 16),
+                                          label: Text("Añadir al Carrito"),
+                                        )
+                                      : ButtomAggCartNosessions(),
+                                  SizedBox(width: 10),
+                                  ElevatedButton.icon(
+                                    style: ElevatedButton.styleFrom(
+                                      primary: Color(0xffed174f), // background
+                                      // foreground
                                     ),
+                                    onPressed: () => Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => AddressScreen(
+                                          totalAmount:
+                                              widget.product.price.toString(),
+                                          cantid:
+                                              widget.product.name.toString(),
+                                        ),
+                                      ),
+                                    ),
+                                    icon: Icon(Icons.payments, size: 16),
+                                    label: Text("Pagar"),
                                   ),
                                 ],
                               ),
-                              Padding(
-                                padding: const EdgeInsets.only(top: 60.0),
-                                child: Container(
-                                  child: ListView.builder(
-                                      scrollDirection: Axis.vertical,
-                                      itemCount: widget.product.rating!.length,
-                                      itemBuilder: ((context, index) {
-                                        final rating =
-                                            widget.product.rating![index];
-                                        return Column(
-                                          children: [
-                                            Container(
-                                              padding:
-                                                  EdgeInsets.only(bottom: 5),
-                                              alignment: Alignment.bottomLeft,
-                                              child: Text(
-                                                rating.userId,
-                                                style: TextStyle(
-                                                  fontSize: 16,
-                                                  color: currentTheme
-                                                          .isDarkTheme()
-                                                      ? GlobalVariables
-                                                          .text1darkbackgroundColor
-                                                      : GlobalVariables
-                                                          .text1WhithegroundColor,
-                                                ),
-                                              ),
-                                            ),
-                                            Container(
-                                              padding:
-                                                  EdgeInsets.only(bottom: 5),
-                                              alignment: Alignment.bottomLeft,
-                                              child: Text(
-                                                rating.userName,
-                                                style: TextStyle(
-                                                  fontSize: 16,
-                                                  color: currentTheme
-                                                          .isDarkTheme()
-                                                      ? GlobalVariables
-                                                          .text1darkbackgroundColor
-                                                      : GlobalVariables
-                                                          .text1WhithegroundColor,
-                                                ),
-                                              ),
-                                            ),
-                                            Container(
-                                              padding:
-                                                  EdgeInsets.only(bottom: 5),
-                                              alignment: Alignment.bottomLeft,
-                                              child: Row(
-                                                children: [
-                                                  Stars(rating: rating.rating),
-                                                  Text(
-                                                    '(' +
-                                                        avgRating.toString() +
-                                                        ') ' +
-                                                        widget.product.rating!
-                                                            .length
-                                                            .toString(),
-                                                    style: TextStyle(
-                                                        color: Colors.grey,
-                                                        fontSize: 13),
-                                                  ),
-                                                  Text(
-                                                    widget.product.name.length
-                                                        .toString(),
-                                                    style: TextStyle(
-                                                        color: Colors.grey,
-                                                        fontSize: 13),
-                                                  ),
-                                                ],
-                                              ),
-                                            ),
-                                          ],
-                                        );
-                                      })),
+                            ),
+                          ]),
+                    ),
+                  ),
+                ],
+              ),
+              Stack(
+                children: [
+                  Column(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          border: Border(
+                            bottom:
+                                BorderSide(width: 1, color: Color(0xfff1f5f9)),
+                          ),
+                          color: currentTheme.isDarkTheme()
+                              ? GlobalVariables.darkbackgroundColor
+                              : GlobalVariables.backgroundColor,
+                        ),
+                        padding: const EdgeInsets.all(8.0),
+                        height: 500,
+                        child: ContainedTabBarView(
+                          tabs: [
+                            Text(
+                              'Descripcion',
+                              style: TextStyle(
+                                color: currentTheme.isDarkTheme()
+                                    ? GlobalVariables.text1darkbackgroundColor
+                                    : Color.fromARGB(206, 0, 0, 0),
+                              ),
+                            ),
+                            Text(
+                              'Servicio',
+                              style: TextStyle(
+                                color: currentTheme.isDarkTheme()
+                                    ? GlobalVariables.text1darkbackgroundColor
+                                    : Color.fromARGB(206, 0, 0, 0),
+                              ),
+                            ),
+                            Text(
+                              'Reseñas',
+                              style: TextStyle(
+                                color: currentTheme.isDarkTheme()
+                                    ? GlobalVariables.text1darkbackgroundColor
+                                    : Color.fromARGB(206, 0, 0, 0),
+                              ),
+                            ),
+                            Text(
+                              'Similar',
+                              style: TextStyle(
+                                color: currentTheme.isDarkTheme()
+                                    ? GlobalVariables.text1darkbackgroundColor
+                                    : Color.fromARGB(206, 0, 0, 0),
+                              ),
+                            ),
+                          ],
+                          views: [
+                            Container(
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Text(
+                                  widget.product.description,
+                                  style: TextStyle(
+                                    color: currentTheme.isDarkTheme()
+                                        ? GlobalVariables
+                                            .text1darkbackgroundColor
+                                        : GlobalVariables
+                                            .text1WhithegroundColor,
+                                  ),
                                 ),
                               ),
-                            ],
-                          ),
-                          Container(child: Text('text')),
-                        ],
-                        // ignore: avoid_print
-                        onChange: (index) => print(index),
+                            ),
+                            Container(child: Text('text')),
+                            Stack(
+                              children: [
+                                Row(
+                                  children: [
+                                    Container(
+                                        child: Text(
+                                      'Tu rating :  ',
+                                      style: TextStyle(
+                                          color: currentTheme.isDarkTheme()
+                                              ? GlobalVariables
+                                                  .text1darkbackgroundColor
+                                              : GlobalVariables
+                                                  .text1WhithegroundColor),
+                                    )),
+                                    Container(
+                                      color: currentTheme.isDarkTheme()
+                                          ? GlobalVariables.darkbackgroundColor
+                                          : GlobalVariables.backgroundColor,
+                                      child: RatingBar.builder(
+                                        initialRating: myRating,
+                                        minRating: 1,
+                                        direction: Axis.horizontal,
+                                        allowHalfRating: true,
+                                        itemCount: 5,
+                                        itemBuilder: (context, _) => Icon(
+                                          Iconsax.star_15,
+                                          color: Color(0xffFF2E4C),
+                                        ),
+                                        onRatingUpdate: (rating) {
+                                          productDetailsServices.rateProduct(
+                                              context: context,
+                                              product: widget.product,
+                                              rating: rating,
+                                              comment: '');
+                                        },
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 60.0),
+                                  child: Container(
+                                    child: ListView.builder(
+                                        scrollDirection: Axis.vertical,
+                                        itemCount:
+                                            widget.product.rating!.length,
+                                        itemBuilder: ((context, index) {
+                                          final rating =
+                                              widget.product.rating![index];
+                                          return Column(
+                                            children: [
+                                              Container(
+                                                padding:
+                                                    EdgeInsets.only(bottom: 5),
+                                                alignment: Alignment.bottomLeft,
+                                                child: Text(
+                                                  rating.userId,
+                                                  style: TextStyle(
+                                                    fontSize: 16,
+                                                    color: currentTheme
+                                                            .isDarkTheme()
+                                                        ? GlobalVariables
+                                                            .text1darkbackgroundColor
+                                                        : GlobalVariables
+                                                            .text1WhithegroundColor,
+                                                  ),
+                                                ),
+                                              ),
+                                              Container(
+                                                padding:
+                                                    EdgeInsets.only(bottom: 5),
+                                                alignment: Alignment.bottomLeft,
+                                                child: Text(
+                                                  rating.userName,
+                                                  style: TextStyle(
+                                                    fontSize: 16,
+                                                    color: currentTheme
+                                                            .isDarkTheme()
+                                                        ? GlobalVariables
+                                                            .text1darkbackgroundColor
+                                                        : GlobalVariables
+                                                            .text1WhithegroundColor,
+                                                  ),
+                                                ),
+                                              ),
+                                              Container(
+                                                padding:
+                                                    EdgeInsets.only(bottom: 5),
+                                                alignment: Alignment.bottomLeft,
+                                                child: Row(
+                                                  children: [
+                                                    Stars(
+                                                        rating: rating.rating),
+                                                    Text(
+                                                      '(' +
+                                                          avgRating.toString() +
+                                                          ') ' +
+                                                          widget.product.rating!
+                                                              .length
+                                                              .toString(),
+                                                      style: TextStyle(
+                                                          color: Colors.grey,
+                                                          fontSize: 13),
+                                                    ),
+                                                    Text(
+                                                      widget.product.name.length
+                                                          .toString(),
+                                                      style: TextStyle(
+                                                          color: Colors.grey,
+                                                          fontSize: 13),
+                                                    ),
+                                                  ],
+                                                ),
+                                              ),
+                                            ],
+                                          );
+                                        })),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Container(child: Text('text')),
+                          ],
+                          // ignore: avoid_print
+                          onChange: (index) => print(index),
+                        ),
                       ),
-                    ),
-                  ],
-                ),
-              ],
-            )
-          ],
+                    ],
+                  ),
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );

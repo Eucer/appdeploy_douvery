@@ -81,32 +81,34 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         drawer: DrawerScreen(),
         //SelectBody
-        body: SwipeRefresh.material(
-            stateStream: _stream,
-            onRefresh: _reset,
-            children: [
-              Scrollbar(
-                child: SingleChildScrollView(
-                  child: Column(
-                    children: [
-                      NavCategory(),
-                      BannerWidget(),
-                      CardsOneWidget(),
-                      ListDealOfDay(),
-                      DealOfDay(),
-                      ListRandom(),
-                      RecomendProduct(),
-                      ListMarca(),
-                      CartCrypto(),
-                      CarAnimationsTesting(),
-                      CardBrands(),
-                      DealOfDay(),
-                      DealOfDay(),
-                      DealOfDay(),
-                    ],
+        body: SelectionArea(
+          child: SwipeRefresh.material(
+              stateStream: _stream,
+              onRefresh: _reset,
+              children: [
+                Scrollbar(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        NavCategory(),
+                        BannerWidget(),
+                        CardsOneWidget(),
+                        ListDealOfDay(),
+                        DealOfDay(),
+                        ListRandom(),
+                        RecomendProduct(),
+                        ListMarca(),
+                        CartCrypto(),
+                        CarAnimationsTesting(),
+                        CardBrands(),
+                        DealOfDay(),
+                        DealOfDay(),
+                        DealOfDay(),
+                      ],
+                    ),
                   ),
-                ),
-              )
-            ]));
+                )
+              ]),
+        ));
   }
 }
