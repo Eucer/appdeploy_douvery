@@ -93,20 +93,14 @@ class AccountServices {
           'x-auth-token': userProvider.user.token,
         },
         body: jsonEncode({
-          'imagen': imageUrls.toString(),
+          'imagen': imageUrls,
         }),
       );
 
       httpErrorHandle(
         response: res,
         context: context,
-        onSuccess: () {
-          User user = userProvider.user.copyWith(
-            images: jsonDecode(res.body)['images'],
-          );
-
-          userProvider.setUserFromModel(user);
-        },
+        onSuccess: () {},
       );
     } catch (e) {
       showSnackBar(context, e.toString());

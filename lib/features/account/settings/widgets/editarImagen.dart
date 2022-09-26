@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:animate_do/animate_do.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dotted_border/dotted_border.dart';
+import 'package:elegant_notification/elegant_notification.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:v1douvery/NAV/mobiles/centerSearchNav.dart';
@@ -188,7 +189,16 @@ class _Subir_And_EditarImagenAccountState
                     padding: const EdgeInsets.all(50.0),
                     child: CustomnButton(
                       text: 'Sell',
-                      onTap: sellProduct,
+                      onTap: () {
+                        sellProduct;
+                        ElegantNotification.success(
+                          title: Text("Hecho!!"),
+                          description: Text(
+                            'Tu foto de perfil se a actualizado correctamente!',
+                          ),
+                        ).show(context);
+                        ;
+                      },
                     ),
                   )
                 ],

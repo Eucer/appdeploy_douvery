@@ -1,9 +1,11 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:flutter_native_splash/cli_commands.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'package:v1douvery/common/widgets/loader.dart';
 
 import 'package:v1douvery/constantes/global_variables.dart';
 import 'package:v1douvery/features/search/vista/search_screen.dart';
@@ -43,13 +45,20 @@ class PerfilUsuario extends StatelessWidget {
                             width: 60,
                             height: 60,
                             decoration: BoxDecoration(
+                              border: Border.all(
+                                  color: currentTheme.isDarkTheme()
+                                      ? GlobalVariables.borderColorsDarklv10
+                                      : GlobalVariables.borderColorsWhithelv10,
+                                  width: 1),
                               shape: BoxShape.circle,
                               image: DecorationImage(
-                                image: AssetImage("assets/images/user.jpg"),
+                                image: NetworkImage(user.images[0]),
                                 // picked file
-                                fit: BoxFit.cover,
+                                fit: BoxFit.contain,
                               ),
-                              color: Colors.red,
+                              color: currentTheme.isDarkTheme()
+                                  ? GlobalVariables.darkOFbackgroundColor
+                                  : GlobalVariables.backgroundColor,
                             ),
                           ),
                           Container(
@@ -109,6 +118,12 @@ class PerfilUsuario extends StatelessWidget {
                     ),
                     Container(
                         child: PopupMenuButton(
+                      icon: Icon(
+                        Icons.more_vert,
+                        color: currentTheme.isDarkTheme()
+                            ? GlobalVariables.text1darkbackgroundColor
+                            : GlobalVariables.text1WhithegroundColor,
+                      ),
                       color: currentTheme.isDarkTheme()
                           ? GlobalVariables.text1darkbackgroundColor
                           : GlobalVariables.colorTextGreylv180,
