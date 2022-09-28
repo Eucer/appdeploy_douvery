@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/cli_commands.dart';
 import 'package:provider/provider.dart';
 import 'package:v1douvery/common/widgets/IconButton.dart';
+import 'package:v1douvery/features/account/widgets/IconoDePerfil.dart';
 
 import '../../../common/widgets/bottom_barAdmin.dart';
 import '../../../constantes/global_variables.dart';
@@ -181,10 +182,7 @@ class headerWidget extends StatelessWidget {
     final user = Provider.of<UserProvider>(context).user;
     return Row(
       children: [
-        CircleAvatar(
-          radius: 30,
-          backgroundImage: NetworkImage(user.images[0]),
-        ),
+        IconoDePerfil(),
         const SizedBox(
           width: 20,
         ),

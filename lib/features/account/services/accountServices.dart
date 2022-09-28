@@ -9,7 +9,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:v1douvery/constantes/error_handling.dart';
 import 'package:v1douvery/constantes/global_variables.dart';
 import 'package:v1douvery/constantes/utils.dart';
+import 'package:v1douvery/features/account/screens/mobiles/account_screen.dart';
 import 'package:v1douvery/features/auth/responsive/authResponsivelayout.dart';
+import 'package:v1douvery/features/home/responsive/responsive_layaout.dart';
 import 'package:v1douvery/models/order.dart';
 import 'package:v1douvery/models/user.dart';
 import 'package:v1douvery/provider/user_provider.dart';
@@ -92,20 +94,67 @@ class AccountServices {
           'Content-Type': 'application/json; charset=UTF-8',
           'x-auth-token': userProvider.user.token,
         },
-        body: jsonEncode({
-          'imagen': imageUrls,
-        }),
+        body: jsonEncode(
+          {
+            'imagen': imageUrls,
+          },
+        ),
       );
 
       httpErrorHandle(
         response: res,
         context: context,
         onSuccess: () {
-          showSnackBar(context, 'Imagen Agregada!'.toString());
+          showSnackBar(
+            context,
+            'Imagen Agregada!'.toString(),
+          );
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => AccountScreen(),
+            ),
+          );
         },
       );
     } catch (e) {
       showSnackBar(context, e.toString());
     }
+  }
+
+  Future<User> fetchUser({
+    required BuildContext context,
+  }) async {
+    final userProvider = Provider.of<UserProvider>(context, listen: false);
+    User user = User(
+      name: '',
+      images: [],
+      id: userProvider.user.id,
+      address: '',
+      cart: [],
+      email: '',
+      password: '',
+      token: '',
+      type: '',
+    );
+
+    try {
+      http.Response res =
+          await http.post(Uri.parse('$uri/api/user/${user.id}'), headers: {
+        'Content-Type': 'application/json; charset=UTF-8',
+        'x-auth-token': userProvider.user.token,
+      });
+
+      httpErrorHandle(
+        response: res,
+        context: context,
+        onSuccess: () {
+          user = User.fromJson(res.body);
+        },
+      );
+    } catch (e) {
+      showSnackBar(context, e.toString());
+    }
+    return user;
   }
 }

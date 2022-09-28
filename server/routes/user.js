@@ -182,6 +182,31 @@ userRouter.get("/api/orders/me", auth, async (req, res) => {
 
 
 
+//userRouter.get("/api/user",  async (req, res) => {
+  //try {
+    //const { userId } = req.body;
+    //let user = await User.findById(userId);
+    //res.json(user);
+  //} catch (e) {
+    //res.status(500).json({ error: e.message });
+  //}
+//});
+
+
+userRouter.post("/api/user/:id",  async (req, res) => {
+  try {
+    const { id } = req.params;
+ 
+    let user = await User.findById(id);
+   
+    res.json(user);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+
+
 
 
 module.exports = userRouter;

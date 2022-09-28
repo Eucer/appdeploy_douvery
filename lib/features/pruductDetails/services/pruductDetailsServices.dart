@@ -57,10 +57,12 @@ class ProductDetailsServices {
           'Content-Type': 'application/json; charset=UTF-8',
           'x-auth-token': userProvider.user.token,
         },
-        body: jsonEncode({
-          'id': product.id!,
-          'viewed': viewed,
-        }),
+        body: jsonEncode(
+          {
+            'id': product.id!,
+            'viewed': viewed,
+          },
+        ),
       );
 
       httpErrorHandle(

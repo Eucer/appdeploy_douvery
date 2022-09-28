@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:badges/badges.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
@@ -5,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'package:swipe_refresh/swipe_refresh.dart';
 import 'package:v1douvery/NAV/mobiles/appBarIcons.dart';
 import 'package:v1douvery/NAV/mobiles/bottomNavSearchTitle.dart';
 import 'package:v1douvery/NAV/mobiles/centerSearchNav.dart';
@@ -23,11 +26,30 @@ import 'package:v1douvery/provider/user_provider.dart';
 import '../../../../provider/theme.dart';
 import '../../../Drawer/screen/mobiles_drawerScreen.dart';
 
-class AccountScreen extends StatelessWidget {
+class AccountScreen extends StatefulWidget {
   const AccountScreen({Key? key}) : super(key: key);
 
   @override
+  State<AccountScreen> createState() => _AccountScreenState();
+}
+
+final _controller = StreamController<SwipeRefreshState>.broadcast();
+
+Stream<SwipeRefreshState> get _stream => _controller.stream;
+
+class _AccountScreenState extends State<AccountScreen> {
+  @override
   Widget build(BuildContext context) {
+    void _reset() {
+      Navigator.pushReplacement(
+        context,
+        PageRouteBuilder(
+          transitionDuration: Duration.zero,
+          pageBuilder: (_, __, ___) => AccountScreen(),
+        ),
+      );
+    }
+
     final userCartLen = context.watch<UserProvider>().user.cart.length;
     final currentTheme = Provider.of<ThemeProvider>(context);
     return Scaffold(
@@ -43,18 +65,29 @@ class AccountScreen extends StatelessWidget {
       ),
 
       //SelectBody
-      body: Provider.of<UserProvider>(context).user.token.isNotEmpty
-          ? SelectionArea(child: Session())
-          : SelectionArea(child: Nosession()),
+      body: SwipeRefresh.material(
+        stateStream: _stream,
+        onRefresh: _reset,
+        children: [
+          Provider.of<UserProvider>(context).user.token.isNotEmpty
+              ? SelectionArea(child: Session())
+              : SelectionArea(child: Nosession()),
+        ],
+      ),
     );
   }
 }
 
-class Session extends StatelessWidget {
+class Session extends StatefulWidget {
   const Session({
     Key? key,
   }) : super(key: key);
 
+  @override
+  State<Session> createState() => _SessionState();
+}
+
+class _SessionState extends State<Session> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

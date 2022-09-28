@@ -1,0 +1,4 @@
+#Tue Sep 27 06:12:39 BOT 2022
+base.0=C\:\\Users\\germi\\OneDrive\\Escritorio\\appStable\\Deploy\\v1douvery\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -287,9 +287,5 @@ C:/Users/germi/OneDrive/Escritorio/appStable/Deploy/v1douvery/build/windows/runn
 C:/Users/germi/OneDrive/Escritorio/appStable/Deploy/v1douvery/build/windows/runner/Debug/data/flutter_assets/packages/pay_android/assets/zh/order_with.svg
 C:/Users/germi/OneDrive/Escritorio/appStable/Deploy/v1douvery/build/windows/runner/Debug/data/flutter_assets/packages/pay_android/assets/zh/pay_with.svg
 C:/Users/germi/OneDrive/Escritorio/appStable/Deploy/v1douvery/build/windows/runner/Debug/data/flutter_assets/packages/pay_android/assets/zh/subscribe_with.svg
-C:/Users/germi/OneDrive/Escritorio/appStable/Deploy/v1douvery/build/windows/runner/Debug/data/flutter_assets/packages/pay_platform_interface/.dart_tool/package_config.json
-C:/Users/germi/OneDrive/Escritorio/appStable/Deploy/v1douvery/build/windows/runner/Debug/data/flutter_assets/packages/pay_platform_interface/.dart_tool/package_config_subset
-C:/Users/germi/OneDrive/Escritorio/appStable/Deploy/v1douvery/build/windows/runner/Debug/data/flutter_assets/packages/pay_platform_interface/.dart_tool/version
-C:/Users/germi/OneDrive/Escritorio/appStable/Deploy/v1douvery/build/windows/runner/Debug/data/flutter_assets/packages/pay_platform_interface/pubspec.lock
 C:/Users/germi/OneDrive/Escritorio/appStable/Deploy/v1douvery/build/windows/runner/Debug/data/flutter_assets/packages/pay_platform_interface/pubspec.yaml
 C:/Users/germi/OneDrive/Escritorio/appStable/Deploy/v1douvery/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

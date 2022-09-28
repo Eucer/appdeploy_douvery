@@ -9,8 +9,10 @@ import 'package:swipe_refresh/swipe_refresh.dart';
 import 'package:v1douvery/NAV/mobiles/centerSearchNav.dart';
 import 'package:v1douvery/common/widgets/IconButton.dart';
 import 'package:v1douvery/common/widgets/iconCart.dart';
+import 'package:v1douvery/common/widgets/loader.dart';
 import 'package:v1douvery/constantes/global_variables.dart';
 import 'package:v1douvery/features/account/settings/widgets/editarImagen.dart';
+import 'package:v1douvery/features/account/widgets/IconoDePerfil.dart';
 import 'package:v1douvery/provider/theme.dart';
 
 import '../../../../provider/user_provider.dart';
@@ -118,17 +120,7 @@ class _SettingsAccountsState extends State<SettingsAccounts> {
                                   padding: const EdgeInsets.all(8.0),
                                   child: Row(
                                     children: [
-                                      user.images == ''
-                                          ? CircleAvatar(
-                                              radius: 30,
-                                              backgroundImage: NetworkImage(
-                                                  'https://res.cloudinary.com/douvery/image/upload/v1664075651/categoryAccount/rw4wogby45zbh1eaglbp.png'),
-                                            )
-                                          : CircleAvatar(
-                                              radius: 30,
-                                              backgroundImage:
-                                                  NetworkImage(user.images[0]),
-                                            ),
+                                      IconoDePerfil(),
                                       Container(
                                         margin: EdgeInsets.only(left: 20),
                                         child: Column(
