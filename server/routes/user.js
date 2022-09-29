@@ -8,7 +8,7 @@ const Order = require("../modelos/order");
 
 
 
-// save user address
+// save userImages
 userRouter.post("/user/add-images", auth, async (req, res) => {
   try {
     const { imagen } = req.body;
@@ -20,6 +20,36 @@ userRouter.post("/user/add-images", auth, async (req, res) => {
     res.status(500).json({ error: e.message });
   }
 });
+
+
+// save user-datos
+userRouter.post("/user/edi-user", auth, async (req, res) => {
+  try {
+    const { userName , userEmail} = req.body;
+    let user = await User.findById(req.user);
+    user.name = userName;
+    user.email = userEmail;
+    user = await user.save();
+    res.json(user);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// save user-datos
+userRouter.post("/user/edi-userEmail", auth, async (req, res) => {
+  try {
+    const {userEmail} = req.body;
+    let user = await User.findById(req.user);
+    user.email = userEmail;
+    user = await user.save();
+    res.json(user);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+
 
 
 userRouter.post("/api/add-to-cart", auth, async (req, res) => {

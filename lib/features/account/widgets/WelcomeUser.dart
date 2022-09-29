@@ -1,18 +1,43 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:flutter_native_splash/cli_commands.dart';
+import 'package:loading_animation_widget/loading_animation_widget.dart';
 import 'package:provider/provider.dart';
 import 'package:v1douvery/common/widgets/IconButton.dart';
+import 'package:v1douvery/common/widgets/loader.dart';
 import 'package:v1douvery/constantes/global_variables.dart';
 import 'package:v1douvery/features/account/services/accountServices.dart';
 import 'package:v1douvery/features/account/settings/screens/settingsHomeAccount.dart';
 import 'package:v1douvery/features/search/vista/search_screen.dart';
+import 'package:v1douvery/models/user.dart';
 import 'package:v1douvery/provider/user_provider.dart';
 
 import '../../../provider/theme.dart';
 
-class WelcomeUser extends StatelessWidget {
+class WelcomeUser extends StatefulWidget {
   const WelcomeUser({Key? key}) : super(key: key);
+
+  @override
+  State<WelcomeUser> createState() => _WelcomeUserState();
+}
+
+class _WelcomeUserState extends State<WelcomeUser> {
+  User? userList;
+
+  final AccountServices accountServices = AccountServices();
+
+  @override
+  void initState() {
+    super.initState();
+    fetchUser();
+  }
+
+  void fetchUser() async {
+    userList = await accountServices.fetchUser(
+      context: context,
+    );
+    setState(() {});
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -55,15 +80,22 @@ class WelcomeUser extends StatelessWidget {
                   ),
                   Container(
                     width: 100,
-                    child: Text(
-                      user.name.capitalize(),
-                      style: TextStyle(
-                        fontSize: 22,
-                        fontWeight: FontWeight.bold,
-                        color: GlobalVariables.colorTextWhiteLight,
-                      ),
-                      overflow: TextOverflow.ellipsis,
-                    ),
+                    child: userList == null
+                        ? Center(
+                            child: LoadingAnimationWidget.staggeredDotsWave(
+                              color: GlobalVariables.colorTextGreylv15,
+                              size: 30,
+                            ),
+                          )
+                        : Text(
+                            userList!.name.capitalize(),
+                            style: TextStyle(
+                              fontSize: 22,
+                              fontWeight: FontWeight.bold,
+                              color: GlobalVariables.colorTextWhiteLight,
+                            ),
+                            overflow: TextOverflow.ellipsis,
+                          ),
                   ),
                 ],
               ),

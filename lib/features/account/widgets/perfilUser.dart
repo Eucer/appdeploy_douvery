@@ -84,7 +84,7 @@ class _PerfilUsuarioState extends State<PerfilUsuario> {
                                         userList!.name.capitalize(),
                                         style: TextStyle(
                                           fontSize: 18,
-                                          fontWeight: FontWeight.w600,
+                                          fontWeight: FontWeight.w400,
                                           color: currentTheme.isDarkTheme()
                                               ? GlobalVariables
                                                   .text2darkbackgroundColor

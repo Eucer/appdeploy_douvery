@@ -122,6 +122,90 @@ class AccountServices {
     }
   }
 
+  void editDatUser({
+    required BuildContext context,
+    required String name,
+    required String email,
+  }) async {
+    final userProvider = Provider.of<UserProvider>(context, listen: false);
+
+    try {
+      http.Response res = await http.post(
+        Uri.parse('$uri/user/edi-user'),
+        headers: {
+          'Content-Type': 'application/json; charset=UTF-8',
+          'x-auth-token': userProvider.user.token,
+        },
+        body: jsonEncode(
+          {
+            'userName': name,
+            'userEmail': email,
+          },
+        ),
+      );
+
+      httpErrorHandle(
+        response: res,
+        context: context,
+        onSuccess: () {
+          showSnackBar(
+            context,
+            'Imagen Agregada!'.toString(),
+          );
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => AccountScreen(),
+            ),
+          );
+        },
+      );
+    } catch (e) {
+      showSnackBar(context, e.toString());
+    }
+  }
+
+  void editDatEmailUser({
+    required BuildContext context,
+    required String email,
+  }) async {
+    final userProvider = Provider.of<UserProvider>(context, listen: false);
+
+    try {
+      http.Response res = await http.post(
+        Uri.parse('$uri/user/edi-userEmail'),
+        headers: {
+          'Content-Type': 'application/json; charset=UTF-8',
+          'x-auth-token': userProvider.user.token,
+        },
+        body: jsonEncode(
+          {
+            'userEmail': email,
+          },
+        ),
+      );
+
+      httpErrorHandle(
+        response: res,
+        context: context,
+        onSuccess: () {
+          showSnackBar(
+            context,
+            'Imagen Agregada!'.toString(),
+          );
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => AccountScreen(),
+            ),
+          );
+        },
+      );
+    } catch (e) {
+      showSnackBar(context, e.toString());
+    }
+  }
+
   Future<User> fetchUser({
     required BuildContext context,
   }) async {

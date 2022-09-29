@@ -171,7 +171,9 @@ class _PostsScreenState extends State<PostsScreen> {
                                         ),
                                         Container(
                                           child: TextButton(
-                                            onPressed: () {},
+                                            onPressed: () {
+                                              deleteProduct(productData, index);
+                                            },
                                             child: const Text(
                                               'Si',
                                             ),

@@ -83,15 +83,16 @@ class _AuthScreenState extends State<AuthScreen> {
                     ),
                   ),
                   child: Padding(
-                    padding:
-                        const EdgeInsets.only(top: 5.0, right: 0, left: 30),
+                    padding: const EdgeInsets.only(
+                      top: 5.0,
+                    ),
                     child: Container(
                       alignment: Alignment.center,
-                      width: 250,
+                      width: 320,
                       height: 100,
                       child: CachedNetworkImage(
                         imageUrl:
-                            'https://res.cloudinary.com/douvery/image/upload/v1659297990/LOGO/of4ya7v8cmrg0mg8us0c.png',
+                            'https://res.cloudinary.com/douvery/image/upload/v1664446187/LOGO/talfl1qrduc4wvbvb4mv.png',
                       ),
                     ),
                   ),

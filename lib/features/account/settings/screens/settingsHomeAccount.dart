@@ -4,6 +4,7 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/cli_commands.dart';
+import 'package:loading_animation_widget/loading_animation_widget.dart';
 import 'package:provider/provider.dart';
 import 'package:swipe_refresh/swipe_refresh.dart';
 import 'package:v1douvery/NAV/mobiles/centerSearchNav.dart';
@@ -11,8 +12,11 @@ import 'package:v1douvery/common/widgets/IconButton.dart';
 import 'package:v1douvery/common/widgets/iconCart.dart';
 import 'package:v1douvery/common/widgets/loader.dart';
 import 'package:v1douvery/constantes/global_variables.dart';
+import 'package:v1douvery/features/account/services/accountServices.dart';
+import 'package:v1douvery/features/account/settings/widgets/editDatos.dart';
 import 'package:v1douvery/features/account/settings/widgets/editarImagen.dart';
 import 'package:v1douvery/features/account/widgets/IconoDePerfil.dart';
+import 'package:v1douvery/models/user.dart';
 import 'package:v1douvery/provider/theme.dart';
 
 import '../../../../provider/user_provider.dart';
@@ -30,6 +34,23 @@ class _SettingsAccountsState extends State<SettingsAccounts> {
   final _controller = StreamController<SwipeRefreshState>.broadcast();
 
   Stream<SwipeRefreshState> get _stream => _controller.stream;
+
+  User? userList;
+
+  final AccountServices accountServices = AccountServices();
+
+  @override
+  void initState() {
+    super.initState();
+    fetchUser();
+  }
+
+  void fetchUser() async {
+    userList = await accountServices.fetchUser(
+      context: context,
+    );
+    setState(() {});
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -129,19 +150,30 @@ class _SettingsAccountsState extends State<SettingsAccounts> {
                                           crossAxisAlignment:
                                               CrossAxisAlignment.start,
                                           children: [
-                                            Text(
-                                              user.name.capitalize(),
-                                              style: TextStyle(
-                                                fontSize: 18,
-                                                fontWeight: FontWeight.w600,
-                                                color: currentTheme
-                                                        .isDarkTheme()
-                                                    ? GlobalVariables
-                                                        .text2darkbackgroundColor
-                                                    : GlobalVariables
-                                                        .text1WhithegroundColor,
-                                              ),
-                                            ),
+                                            userList == null
+                                                ? Center(
+                                                    child:
+                                                        LoadingAnimationWidget
+                                                            .staggeredDotsWave(
+                                                      color: GlobalVariables
+                                                          .colorTextGreylv15,
+                                                      size: 30,
+                                                    ),
+                                                  )
+                                                : Text(
+                                                    userList!.name.capitalize(),
+                                                    style: TextStyle(
+                                                      fontSize: 18,
+                                                      fontWeight:
+                                                          FontWeight.w400,
+                                                      color: currentTheme
+                                                              .isDarkTheme()
+                                                          ? GlobalVariables
+                                                              .text2darkbackgroundColor
+                                                          : GlobalVariables
+                                                              .text1WhithegroundColor,
+                                                    ),
+                                                  ),
                                             Container(
                                               margin:
                                                   EdgeInsets.only(right: 25),
@@ -248,7 +280,16 @@ class _SettingsAccountsState extends State<SettingsAccounts> {
                           ? GlobalVariables.text1darkbackgroundColor
                           : GlobalVariables.text1WhithegroundColor,
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        CupertinoPageRoute(
+                          builder: (context) => EditDatosUser(
+                            user: user,
+                          ),
+                        ),
+                      );
+                    },
                     currentTheme: currentTheme,
                   )
                 ]),
